@@ -1,0 +1,27 @@
+name: Published timetable source
+description: Provide a public congregation timetable for review and integration
+labels: ['schedule-review']
+body:
+  - type: input
+    id: mosque
+    attributes:
+      label: Mosque name and catalog ID
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public mosque timetable or provider URL
+    validations:
+      required: true
+  - type: input
+    id: validity
+    attributes:
+      label: Applicable dates or timetable period
+    validations:
+      required: true
+  - type: textarea
+    id: times
+    attributes:
+      label: Published prayer, iqamah and Friday session details
+      description: Specify khutbah and salah separately when the source does. Review is required before adding these times to the feed.

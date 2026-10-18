@@ -27,3 +27,8 @@ https://github.com/ringsaturn/tzfpy
 The feed is an aggregation of public facts. ODbL obligations apply to the
 OpenStreetMap-derived database. All source dates and provenance remain attached.
 Source import/retrieval is not a claim that a timetable was independently verified.
+
+PrayersConnect public directory and source-backed congregation timetables
+https://prayersconnect.com/
+Public guest API documentation: https://github.com/prayersconnect/omarchy-prayersconnect-prayertimes/blob/main/NOTES-api.md
+Calculated fallback times are excluded from congregation schedule data.

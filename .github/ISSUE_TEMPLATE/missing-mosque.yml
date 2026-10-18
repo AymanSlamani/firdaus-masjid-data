@@ -1,0 +1,27 @@
+name: Missing mosque or correction
+description: Request review of a public mosque directory record
+labels: ['directory-review']
+body:
+  - type: input
+    id: mosque
+    attributes:
+      label: Mosque name
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Street address, city, state and ZIP
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public official website or source listing
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Missing or incorrect public information
+      description: Include the current catalog ID if known. Please omit personal requests and private contact information.

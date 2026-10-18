@@ -21,10 +21,10 @@ different concepts. No blanket "verified" flag is inferred from inclusion.
 ## Refreshing
 
 The Actions workflow refreshes at 12:17 UTC daily. It downloads full public
-source pagination, retrieves dated Masjidal schedules, refreshes unambiguous
+source pagination, retrieves dated Masjidal and PrayersConnect schedules, refreshes unambiguous
 MOHID widgets linked from mosque websites, validates the entire result, and
 commits only a completed snapshot. Sunday scheduled runs additionally refresh
-OpenStreetMap, eSalah enrichment, and website discovery. Manual workflow runs
+OpenStreetMap, eSalah and PrayersConnect directories, and website discovery. Manual workflow runs
 can request the full refresh. Runs can be delayed by GitHub or upstream outages;
 consumers must inspect dates and keep an offline fallback.
 
@@ -73,6 +73,10 @@ The astronomy calculation remains independent of congregation times.
   not prove that the mosque recently edited its timetable.
 - eSalah: its documented anonymous directory API is used for additional public
   profiles, honoring the public rate limit.
+- PrayersConnect: documented anonymous guest API; guest tokens stay in memory.
+  Source-backed daily iqamah records are retained; calculated `waqt` fallbacks
+  and substituted Dhuhr Friday salah are excluded. Friday khutbah and salah
+  remain separate. No API-generated astronomical start is called mosque-published.
 - US Census state cartographic boundaries assign missing state codes; tzfpy
   resolves IANA timezones from geographic polygons.
 
@@ -82,3 +86,10 @@ credential is used as production access here. A private or unpublished schedule
 remains a gap until its mosque/provider publishes it or grants permission.
 
 See [NOTICE.txt](NOTICE.txt) for attribution and data licensing.
+
+## Corrections
+
+Use the [missing mosque](https://github.com/AymanSlamani/firdaus-masjid-data/issues/new?template=missing-mosque.yml) or
+[schedule correction](https://github.com/AymanSlamani/firdaus-masjid-data/issues/new?template=schedule.yml) issue forms with a
+public source. Submissions require human review before entering the feed. Do not
+submit personal contact information, private notes, or private schedules.
