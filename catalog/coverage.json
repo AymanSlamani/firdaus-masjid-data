@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T10:58:16.037239+00:00",
+  "generatedAt": "2026-10-18T11:17:08.578119+00:00",
   "inputRecords": {
     "openstreetmap": 1209,
     "masjidsinusa": 3062,
@@ -9224,9 +9224,9 @@
   "withPhone": 2639,
   "withLiveProvider": 1418,
   "withPublishedSnapshot": 1365,
-  "withCurrentPublishedSchedule": 1365,
+  "withCurrentPublishedSchedule": 1364,
   "withCurrentJumuah": 1293,
-  "withFiveDailyIqamah": 1362,
+  "withFiveDailyIqamah": 1361,
   "withoutLiveProvider": 2524,
   "providerAccountConflicts": [
     {
