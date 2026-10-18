@@ -95,6 +95,10 @@ def main():
         "masjids": sorted(records, key=lambda m: m["id"]),
     }
     output = args.output or Path(f"assets/data/masjids/{country.lower()}.json")
+    if output.exists():
+        previous = json.loads(output.read_text())
+        if len(records) < len(previous["masjids"]) * 0.8:
+            raise ValueError("Unexpected OSM shrink; previous snapshot preserved")
     output.parent.mkdir(parents=True, exist_ok=True)
     temp = output.with_suffix(".tmp")
     temp.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

@@ -1,9 +1,13 @@
 import importlib.util
 import datetime as dt
+import os
+import subprocess
+import tempfile
 import json
 from pathlib import Path
 import sys
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 # Works both in the dedicated data repository and under the application scripts.
@@ -31,6 +35,86 @@ def row(identity, name, lat=40.7128, lng=-74.006, website="https://example.org")
 
 
 class ImportTests(unittest.TestCase):
+    def test_weekly_osm_outage_keeps_snapshot_and_does_not_block_prayer_refresh(self):
+        spec = importlib.util.spec_from_file_location(
+            "feed_pipeline", SCRIPTS / "run-masjid-feed-refresh.py"
+        )
+        pipeline = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(pipeline)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "inputs").mkdir()
+            (root / "catalog").mkdir()
+            original = '{"masjids": []}'
+            (root / "inputs/osm-us.json").write_text(original)
+            (root / "inputs/prayersconnect.json").write_text(original)
+            (root / "inputs/us-states.zip").write_bytes(b"previous boundary snapshot")
+            rows = [row(f"test/{i}", "Example Masjid") for i in range(3000)]
+            for i, code in enumerate(["AK", "HI", "NY", "CA", "TX", "DC"]):
+                rows[i]["region"] = code
+            data = {
+                "schemaVersion": 2,
+                "country": "US",
+                "importedAt": "2026-10-18T12:00:00+00:00",
+                "masjids": rows,
+                "coverage": {
+                    "withLiveProvider": 0,
+                    "withPublishedSnapshot": 0,
+                    "withCurrentPublishedSchedule": 0,
+                    "withCurrentJumuah": 0,
+                },
+            }
+            (root / "catalog/us.json").write_text(json.dumps(data))
+            calls = []
+
+            def run(command, **kwargs):
+                script = Path(command[1]).name
+                calls.append(script)
+                if script == "import-masjids.py":
+                    raise subprocess.CalledProcessError(1, command)
+
+            previous = Path.cwd()
+            try:
+                os.chdir(root)
+                with patch.object(sys, "argv", ["refresh", "--full"]), patch.object(
+                    pipeline.subprocess, "run", side_effect=run
+                ):
+                    pipeline.main()
+            finally:
+                os.chdir(previous)
+            self.assertEqual((root / "inputs/osm-us.json").read_text(), original)
+            self.assertIn("fetch-masjid-schedules.py", calls)
+            self.assertIn("fetch-prayersconnect-schedules.py", calls)
+            status = json.loads((root / "catalog/status.json").read_text())
+            self.assertEqual(
+                status["refreshWarnings"],
+                [{"source": "import-masjids.py", "previousSnapshotRetained": True}],
+            )
+
+    def test_review_override_removes_only_the_unconfirmed_source_account(self):
+        catalog, audit = build_catalog(
+            {"masjids": [row("node/1", "Example Masjid")]},
+            {"masjids": []},
+            {"masjids": [row("provider/unconfirmed", "Example Masjid")]},
+            timezone_for=lambda *_: "America/New_York",
+            exclusions={
+                "provider/unconfirmed": "Public congregation identity needs review"
+            },
+        )
+        self.assertEqual(len(catalog["masjids"]), 1)
+        self.assertEqual(len(catalog["masjids"][0]["sources"]), 1)
+        self.assertEqual(audit["rejectedOrReview"][0]["id"], "provider/unconfirmed")
+
+    def test_ambiguous_church_and_cemetery_entries_are_held_for_review(self):
+        catalog, audit = build_catalog(
+            {"masjids": [row("node/1", "Example Cemetery")]},
+            {"masjids": [row("usa/a", "Example Baptist Church")]},
+            {"masjids": [row("provider/b", "Community Church Musallah")]},
+            timezone_for=lambda *_: "America/New_York",
+        )
+        self.assertEqual([r["id"] for r in catalog["masjids"]], ["provider/b"])
+        self.assertEqual(len(audit["rejectedOrReview"]), 2)
+
     def test_prayersconnect_fallbacks_are_not_published_congregation_times(self):
         detail = {
             "prayer_times": {

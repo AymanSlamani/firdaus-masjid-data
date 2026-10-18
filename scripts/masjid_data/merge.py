@@ -41,6 +41,28 @@ def distance(a, b):
     )
 
 
+def category_review(row, exclusions=None):
+    if row["id"] in (exclusions or {}):
+        return {
+            "id": row["id"],
+            "name": row["name"],
+            "reason": exclusions[row["id"]],
+            "sourceUrl": row.get("sourceUrl"),
+        }
+    name = normalize(row["name"])
+    explicit_prayer_space = re.search(
+        r"\b(masjid|masajid|mosque|musallah?|prayer|center|centre)\b", name
+    )
+    if not explicit_prayer_space and re.search(r"\b(church|cemetery)\b", name):
+        return {
+            "id": row["id"],
+            "name": row["name"],
+            "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+            "sourceUrl": row.get("sourceUrl"),
+        }
+    return None
+
+
 def match(records, incoming):
     best, score = None, 0
     target_name = normalize(incoming["name"])
@@ -96,11 +118,16 @@ def build_catalog(
     state_for=None,
     extra_sources=None,
     discovery=None,
+    exclusions=None,
 ):
     records, merges, coordinate_review = [], [], []
     for raw in osm["masjids"]:
         row = deepcopy(raw)
         row["sourceUrl"] = "https://www.openstreetmap.org/" + row["id"]
+        review = category_review(row, exclusions)
+        if review:
+            coordinate_review.append(review)
+            continue
         row["sources"] = [
             {"provider": "openstreetmap", "id": row["id"], "url": row["sourceUrl"]}
         ]
@@ -109,7 +136,7 @@ def build_catalog(
         row.setdefault("aliases", [])
         records.append(row)
     input_counts = {
-        "openstreetmap": len(records),
+        "openstreetmap": len(osm["masjids"]),
         "masjidsinusa": len(usa["masjids"]),
         "masjidal": len(masjidal["masjids"]),
     }
@@ -118,6 +145,10 @@ def build_catalog(
     for payload in [usa, masjidal, *(extra_sources or [])]:
         for raw in payload["masjids"]:
             incoming = deepcopy(raw)
+            review = category_review(incoming, exclusions)
+            if review:
+                coordinate_review.append(review)
+                continue
             zone = timezone_for(incoming["lng"], incoming["lat"])
             us_zones = {
                 "America/New_York",
@@ -230,6 +261,15 @@ def build_catalog(
     report = {
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "inputRecords": input_counts,
+        "sourceSnapshots": {
+            "openstreetmap": osm.get("importedAt"),
+            "masjidsinusa": usa.get("importedAt"),
+            "masjidal": masjidal.get("importedAt"),
+            **{
+                extra.get("sourceName", "extra"): extra.get("importedAt")
+                for extra in extra_sources or []
+            },
+        },
         "uniqueLocations": len(records),
         "mergedRecords": len(merges),
         "merges": merges,

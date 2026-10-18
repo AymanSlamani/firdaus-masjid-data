@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-18T11:48:48.439056+00:00",
-  "count": 2667,
+  "generatedAt": "2026-10-18T17:17:17.873730+00:00",
+  "count": 2656,
   "locations": [
     {
       "id": "esalah/10000",
@@ -59,21 +59,6 @@
           "provider": "esalah",
           "id": "10158",
           "url": "https://esalah.com/mosques/united-states/michigan/grand-rapids/muslim-directory/"
-        }
-      ]
-    },
-    {
-      "id": "esalah/10190",
-      "name": "Salisbury Seventh-Day Adventist Church",
-      "city": "Salisbury",
-      "state": "NC",
-      "website": "https://www.salisburysdachurch.org/",
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "10190",
-          "url": "https://esalah.com/mosques/united-states/north-carolina/salisbury/salisbury-seventh-day-adventist-church/"
         }
       ]
     },
@@ -2478,21 +2463,6 @@
       ]
     },
     {
-      "id": "esalah/2613",
-      "name": "ICGA Muslim Cemetery",
-      "city": "Dale",
-      "state": "TX",
-      "website": "https://www.austinmosque.org/",
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "2613",
-          "url": "https://esalah.com/mosques/united-states/texas/dale/icga-muslim-cemetery/"
-        }
-      ]
-    },
-    {
       "id": "esalah/2614",
       "name": "Masjid Maryam (Mary the Virgin Mosque)",
       "city": "Austin",
@@ -2819,21 +2789,6 @@
           "provider": "esalah",
           "id": "2865",
           "url": "https://esalah.com/mosques/united-states/indiana/topeka/msjd-altwhyd/"
-        }
-      ]
-    },
-    {
-      "id": "esalah/2999",
-      "name": "Carbondale Cemetery",
-      "city": "Carbondale",
-      "state": "KS",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "2999",
-          "url": "https://esalah.com/mosques/united-states/kansas/carbondale/carbondale-cemetery/"
         }
       ]
     },
@@ -3769,21 +3724,6 @@
           "provider": "esalah",
           "id": "4718",
           "url": "https://esalah.com/mosques/united-states/texas/fort-worth/islamic-association-fort-worth/"
-        }
-      ]
-    },
-    {
-      "id": "esalah/47636",
-      "name": "New Gethsemane Baptist Church",
-      "city": "Philadelphia",
-      "state": "PA",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "47636",
-          "url": "https://esalah.com/mosques/united-states/pennsylvania/philadelphia/new-gethsemane-baptist-church/"
         }
       ]
     },
@@ -4943,21 +4883,6 @@
       ]
     },
     {
-      "id": "esalah/8663",
-      "name": "Heritage Church of Dallas",
-      "city": "Richardson",
-      "state": "TX",
-      "website": "https://heritagechurchdallas.com/",
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "8663",
-          "url": "https://esalah.com/mosques/united-states/texas/richardson/heritage-church-of-dallas/"
-        }
-      ]
-    },
-    {
       "id": "esalah/8687",
       "name": "Furqaan Academy Bolingbrook",
       "city": "Bolingbrook",
@@ -5668,21 +5593,6 @@
       ]
     },
     {
-      "id": "masjidal/RKx6G8AO",
-      "name": "Joel Valle",
-      "city": "Hood river",
-      "state": "OR",
-      "website": null,
-      "reason": "no_current_provider_schedule",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "RKx6G8AO",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=RKx6G8AO"
-        }
-      ]
-    },
-    {
       "id": "masjidal/RKxwaRdO",
       "name": "Woodlands Islamic Center",
       "city": "The Woodlands",
@@ -6354,26 +6264,6 @@
           "provider": "esalah",
           "id": "43332",
           "url": "https://esalah.com/mosques/united-states/georgia/lilburn/faizan-e-madinah/"
-        }
-      ]
-    },
-    {
-      "id": "node/13067642270",
-      "name": "AMA Cemetery",
-      "city": "Fredericksburg",
-      "state": "VA",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "openstreetmap",
-          "id": "node/13067642270",
-          "url": "https://www.openstreetmap.org/node/13067642270"
-        },
-        {
-          "provider": "esalah",
-          "id": "152709",
-          "url": "https://esalah.com/mosques/united-states/virginia/fredericksburg/ama-cemetery/"
         }
       ]
     },
@@ -12149,21 +12039,6 @@
           "provider": "prayersconnect",
           "id": "84029574",
           "url": "https://prayersconnect.com/mosques/84029574"
-        }
-      ]
-    },
-    {
-      "id": "prayersconnect/84029782",
-      "name": "Church of Spiritual Unity",
-      "city": "Columbus",
-      "state": "OH",
-      "website": null,
-      "reason": "no_current_provider_schedule",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84029782",
-          "url": "https://prayersconnect.com/mosques/84029782"
         }
       ]
     },
@@ -17964,21 +17839,6 @@
           "provider": "prayersconnect",
           "id": "84098033",
           "url": "https://prayersconnect.com/mosques/84098033"
-        }
-      ]
-    },
-    {
-      "id": "prayersconnect/84098161",
-      "name": "Al Rahma Muslim Cemetery",
-      "city": "Maricopa",
-      "state": "AZ",
-      "website": "http://tempemosque.com/funeral-2/",
-      "reason": "no_current_provider_schedule",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84098161",
-          "url": "https://prayersconnect.com/mosques/84098161"
         }
       ]
     },
@@ -27414,21 +27274,6 @@
           "provider": "esalah",
           "id": "2644",
           "url": "https://esalah.com/mosques/united-states/ohio/groveport/bait-ul-nasir/"
-        }
-      ]
-    },
-    {
-      "id": "usa/89fe4a0b-deaa-5281-adda-d95a249fdfa7",
-      "name": "Muslim Cemetery",
-      "city": "Greensboro",
-      "state": "NC",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "89fe4a0b-deaa-5281-adda-d95a249fdfa7",
-          "url": "https://masjidsinusa.com/states/north-carolina/"
         }
       ]
     },
@@ -38694,21 +38539,6 @@
           "provider": "masjidsinusa",
           "id": "f64eab17-5e01-58da-bfba-3e5ad82c3561",
           "url": "https://masjidsinusa.com/states/iowa/"
-        }
-      ]
-    },
-    {
-      "id": "usa/f6ca13b2-3186-507e-820a-e41fdba5725a",
-      "name": "Roseville Islamic Cemetery",
-      "city": "Roseville",
-      "state": "MN",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "f6ca13b2-3186-507e-820a-e41fdba5725a",
-          "url": "https://masjidsinusa.com/states/minnesota/"
         }
       ]
     },

@@ -24,6 +24,7 @@ def main():
     for path in inputs.glob("*.json"):
         shutil.copy2(path, work / path.name)
     shutil.copy2(inputs / "us-states.zip", work / "us-states.zip")
+    warnings = []
 
     def run(script, *args):
         subprocess.run(
@@ -32,14 +33,29 @@ def main():
             cwd=root,
         )
 
+    def weekly(script, *args):
+        try:
+            run(script, *args)
+        except subprocess.CalledProcessError:
+            # These adapters write atomically and retain their previous input.
+            # A directory/site outage must not prevent dated prayer refreshes.
+            warning = {"source": script, "previousSnapshotRetained": True}
+            warnings.append(warning)
+            print(
+                "Weekly source unavailable; retained its previous snapshot: " + script,
+                flush=True,
+            )
+
     run("refresh-masjids.py", "--work-dir", work)
     # Update the country boundary import weekly; previous valid OSM data remains
     # an input until a complete replacement succeeds.
     if a.full:
-        run("import-masjids.py", "--output", inputs / "osm-us.json")
+        weekly("import-masjids.py", "--output", inputs / "osm-us.json")
     run("fetch-masjid-schedules.py", "--work-dir", work)
-    if a.full or not (work / "prayersconnect.json").exists():
+    if not (work / "prayersconnect.json").exists():
         run("import-prayersconnect-masjids.py", "--work-dir", work)
+    elif a.full:
+        weekly("import-prayersconnect-masjids.py", "--work-dir", work)
     run("fetch-prayersconnect-schedules.py", "--work-dir", work)
 
     def build():
@@ -57,13 +73,13 @@ def main():
 
     build()
     if a.full:
-        run(
+        weekly(
             "import-esalah-masjids.py",
             "--work-dir",
             work,
         )
         build()
-        run(
+        weekly(
             "discover-masjid-providers.py",
             "--work-dir",
             work,
@@ -102,6 +118,7 @@ def main():
         "currentPublishedSchedules": coverage["withCurrentPublishedSchedule"],
         "withFridaySessions": coverage["withCurrentJumuah"],
         "completeCensus": False,
+        "refreshWarnings": warnings,
     }
     (catalog / "status.json").write_text(json.dumps(summary, indent=2) + "\n")
     now = dt.datetime.now(dt.timezone.utc)

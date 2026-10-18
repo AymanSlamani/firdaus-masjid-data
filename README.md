@@ -26,7 +26,10 @@ MOHID widgets linked from mosque websites, validates the entire result, and
 commits only a completed snapshot. Sunday scheduled runs additionally refresh
 OpenStreetMap, eSalah and PrayersConnect directories, and website discovery. Manual workflow runs
 can request the full refresh. Runs can be delayed by GitHub or upstream outages;
-consumers must inspect dates and keep an offline fallback.
+consumers must inspect dates and keep an offline fallback. Optional weekly
+source failures retain the last complete input for that source and appear in
+`status.json.refreshWarnings`; they do not block fresh dated schedules from
+other providers. Directory snapshot dates are in `coverage.json.sourceSnapshots`.
 
 ```sh
 python3 -m venv .venv
@@ -77,6 +80,9 @@ The astronomy calculation remains independent of congregation times.
   Source-backed daily iqamah records are retained; calculated `waqt` fallbacks
   and substituted Dhuhr Friday salah are excluded. Friday khutbah and salah
   remain separate. No API-generated astronomical start is called mosque-published.
+- Church-only and cemetery-only names without an explicit mosque/prayer-space
+  designation are held in the category review queue, rather than counted as
+  regular congregation venues.
 - US Census state cartographic boundaries assign missing state codes; tzfpy
   resolves IANA timezones from geographic polygons.
 
@@ -93,3 +99,7 @@ Use the [missing mosque](https://github.com/AymanSlamani/firdaus-masjid-data/iss
 [schedule correction](https://github.com/AymanSlamani/firdaus-masjid-data/issues/new?template=schedule.yml) issue forms with a
 public source. Submissions require human review before entering the feed. Do not
 submit personal contact information, private notes, or private schedules.
+
+`inputs/review-overrides.json` holds explicit source-record exclusions pending
+public-venue confirmation. Each exclusion remains visible in the coverage audit;
+other sources for the same location are preserved.

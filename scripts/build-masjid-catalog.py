@@ -41,6 +41,7 @@ def main():
         json.loads(discovery_file.read_text()) if discovery_file.exists() else {}
     )
     states = CensusStates(a.work_dir / "us-states.zip")
+    reviews = a.work_dir / "review-overrides.json"
     catalog, audit = build_catalog(
         json.loads(a.osm.read_text()),
         json.loads((a.work_dir / "usa.json").read_text()),
@@ -50,6 +51,11 @@ def main():
         state_for=states.state,
         extra_sources=extra,
         discovery=discovery,
+        exclusions=(
+            json.loads(reviews.read_text()).get("exclude", {})
+            if reviews.exists()
+            else {}
+        ),
     )
     if len(catalog["masjids"]) < 3000:
         raise ValueError(

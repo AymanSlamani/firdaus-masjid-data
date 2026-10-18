@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T11:48:48.439056+00:00",
+  "generatedAt": "2026-10-18T17:17:17.873730+00:00",
   "inputRecords": {
     "openstreetmap": 1209,
     "masjidsinusa": 3062,
@@ -7,8 +7,15 @@
     "esalah": 2258,
     "prayersconnect": 3380
   },
-  "uniqueLocations": 5174,
-  "mergedRecords": 5905,
+  "sourceSnapshots": {
+    "openstreetmap": "2026-10-18T10:08:51Z",
+    "masjidsinusa": "2026-10-18T11:34:54.354925+00:00",
+    "masjidal": "2026-10-18T11:34:54.354925+00:00",
+    "esalah": "2026-10-18T11:28:56.858107+00:00",
+    "prayersconnect": "2026-10-18T11:29:58.643870+00:00"
+  },
+  "uniqueLocations": 5163,
+  "mergedRecords": 5904,
   "merges": [
     {
       "kept": "way/1425907711",
@@ -9488,11 +9495,6 @@
     {
       "kept": "way/1243245605",
       "merged": "esalah/152756",
-      "confidence": 0.95
-    },
-    {
-      "kept": "node/13067642270",
-      "merged": "esalah/152709",
       "confidence": 0.95
     },
     {
@@ -29916,6 +29918,24 @@
       "sourceUrl": "https://masjidsinusa.com/states/wisconsin/"
     },
     {
+      "id": "node/13067642270",
+      "name": "AMA Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://www.openstreetmap.org/node/13067642270"
+    },
+    {
+      "id": "usa/f6ca13b2-3186-507e-820a-e41fdba5725a",
+      "name": "Roseville Islamic Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://masjidsinusa.com/states/minnesota/"
+    },
+    {
+      "id": "usa/89fe4a0b-deaa-5281-adda-d95a249fdfa7",
+      "name": "Muslim Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://masjidsinusa.com/states/north-carolina/"
+    },
+    {
       "id": "masjidal/RKx6rRAO",
       "name": "Alrashidden Islamic center",
       "lat": -75.0324,
@@ -29946,6 +29966,12 @@
       "lng": 112.1128,
       "reason": "US record has coordinates outside US timezones",
       "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWqm2Kj"
+    },
+    {
+      "id": "masjidal/RKx6G8AO",
+      "name": "Joel Valle",
+      "reason": "Public congregation identity needs review: account uses an individual's name, has no independent mosque website/contact, and supplies a timetable ahead of the mosque's local date. Retain outside the locator until confirmed as a public prayer venue.",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=RKx6G8AO"
     },
     {
       "id": "esalah/199792",
@@ -30378,6 +30404,12 @@
       "lng": 114.7485221,
       "reason": "US record has coordinates outside US timezones",
       "sourceUrl": "https://esalah.com/mosques/united-states/mukim-gadong-b/bandar-seri-begawan/masjid-kampong-sinaut/"
+    },
+    {
+      "id": "esalah/152709",
+      "name": "AMA Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/virginia/fredericksburg/ama-cemetery/"
     },
     {
       "id": "esalah/152700",
@@ -31276,6 +31308,12 @@
       "sourceUrl": "https://esalah.com/mosques/united-states/kianggeh/bandar-seri-begawan/masjid-baru-limbang/"
     },
     {
+      "id": "esalah/47636",
+      "name": "New Gethsemane Baptist Church",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/pennsylvania/philadelphia/new-gethsemane-baptist-church/"
+    },
+    {
       "id": "esalah/44848",
       "name": "Windsor Islamic Association Centre",
       "lat": 42.2743805,
@@ -31348,6 +31386,12 @@
       "sourceUrl": "https://esalah.com/mosques/united-states/kuala-belait/kuala-belait/masjid-kampong-pandan/"
     },
     {
+      "id": "esalah/10190",
+      "name": "Salisbury Seventh-Day Adventist Church",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/north-carolina/salisbury/salisbury-seventh-day-adventist-church/"
+    },
+    {
       "id": "esalah/9443",
       "name": "Arabic Point",
       "lat": 50.068963,
@@ -31410,6 +31454,12 @@
       "lng": 113.979696,
       "reason": "US record has coordinates outside US timezones",
       "sourceUrl": "https://esalah.com/mosques/united-states/tuen-mun-district/hong-kong/madressa-kan-ul-eman/"
+    },
+    {
+      "id": "esalah/8663",
+      "name": "Heritage Church of Dallas",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/texas/richardson/heritage-church-of-dallas/"
     },
     {
       "id": "esalah/8623",
@@ -31940,19 +31990,43 @@
       "sourceUrl": "https://esalah.com/mosques/united-states/macedonia-fyrom/lojane/xhamia-fshatit-llojan/"
     },
     {
+      "id": "esalah/2999",
+      "name": "Carbondale Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/kansas/carbondale/carbondale-cemetery/"
+    },
+    {
+      "id": "esalah/2613",
+      "name": "ICGA Muslim Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://esalah.com/mosques/united-states/texas/dale/icga-muslim-cemetery/"
+    },
+    {
+      "id": "prayersconnect/84029782",
+      "name": "Church of Spiritual Unity",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://prayersconnect.com/mosques/84029782"
+    },
+    {
       "id": "prayersconnect/84083651",
       "name": "Masjid El Noor",
       "lat": 32.3643661,
       "lng": -117.0426998,
       "reason": "US record has coordinates outside US timezones",
       "sourceUrl": "https://prayersconnect.com/mosques/84083651"
+    },
+    {
+      "id": "prayersconnect/84098161",
+      "name": "Al Rahma Muslim Cemetery",
+      "reason": "Directory category needs review: name identifies a church or cemetery without an explicit mosque/prayer-space designation",
+      "sourceUrl": "https://prayersconnect.com/mosques/84098161"
     }
   ],
   "byState": {
     "AK": 5,
     "AL": 55,
     "AR": 20,
-    "AZ": 76,
+    "AZ": 75,
     "CA": 513,
     "CO": 52,
     "CT": 85,
@@ -31965,18 +32039,18 @@
     "ID": 13,
     "IL": 283,
     "IN": 82,
-    "KS": 31,
+    "KS": 30,
     "KY": 62,
     "LA": 56,
     "MA": 111,
     "MD": 137,
     "ME": 15,
     "MI": 216,
-    "MN": 155,
+    "MN": 154,
     "MO": 78,
     "MS": 24,
     "MT": 4,
-    "NC": 137,
+    "NC": 135,
     "ND": 12,
     "NE": 31,
     "NH": 9,
@@ -31984,32 +32058,32 @@
     "NM": 26,
     "NV": 18,
     "NY": 656,
-    "OH": 166,
+    "OH": 165,
     "OK": 22,
-    "OR": 31,
-    "PA": 235,
+    "OR": 30,
+    "PA": 234,
     "PR": 7,
     "RI": 12,
     "SC": 40,
     "SD": 6,
     "TN": 72,
-    "TX": 466,
+    "TX": 464,
     "UT": 20,
-    "VA": 172,
+    "VA": 171,
     "VT": 3,
     "WA": 123,
     "WI": 55,
     "WV": 9,
     "WY": 3
   },
-  "withWebsite": 3126,
-  "withPhone": 3778,
-  "withLiveProvider": 3832,
-  "withPublishedSnapshot": 2508,
+  "withWebsite": 3122,
+  "withPhone": 3772,
+  "withLiveProvider": 3829,
+  "withPublishedSnapshot": 2507,
   "withCurrentPublishedSchedule": 2507,
   "withCurrentJumuah": 2420,
   "withFiveDailyIqamah": 1361,
-  "withoutLiveProvider": 1342,
+  "withoutLiveProvider": 1334,
   "providerAccountConflicts": [
     {
       "id": "masjidal/8K9qBEKp",

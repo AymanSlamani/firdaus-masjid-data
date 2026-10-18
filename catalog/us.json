@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
   "country": "US",
-  "importedAt": "2026-10-18T11:48:48.439056+00:00",
+  "importedAt": "2026-10-18T17:17:17.873730+00:00",
   "source": "Multiple attributed public directory and timetable sources",
   "license": "See NOTICE.txt; OpenStreetMap-derived records are ODbL-1.0",
   "coverage": {
-    "generatedAt": "2026-10-18T11:48:48.439056+00:00",
+    "generatedAt": "2026-10-18T17:17:17.873730+00:00",
     "inputRecords": {
       "openstreetmap": 1209,
       "masjidsinusa": 3062,
@@ -13,13 +13,20 @@
       "esalah": 2258,
       "prayersconnect": 3380
     },
-    "uniqueLocations": 5174,
-    "mergedRecords": 5905,
+    "sourceSnapshots": {
+      "openstreetmap": "2026-10-18T10:08:51Z",
+      "masjidsinusa": "2026-10-18T11:34:54.354925+00:00",
+      "masjidal": "2026-10-18T11:34:54.354925+00:00",
+      "esalah": "2026-10-18T11:28:56.858107+00:00",
+      "prayersconnect": "2026-10-18T11:29:58.643870+00:00"
+    },
+    "uniqueLocations": 5163,
+    "mergedRecords": 5904,
     "byState": {
       "AK": 5,
       "AL": 55,
       "AR": 20,
-      "AZ": 76,
+      "AZ": 75,
       "CA": 513,
       "CO": 52,
       "CT": 85,
@@ -32,18 +39,18 @@
       "ID": 13,
       "IL": 283,
       "IN": 82,
-      "KS": 31,
+      "KS": 30,
       "KY": 62,
       "LA": 56,
       "MA": 111,
       "MD": 137,
       "ME": 15,
       "MI": 216,
-      "MN": 155,
+      "MN": 154,
       "MO": 78,
       "MS": 24,
       "MT": 4,
-      "NC": 137,
+      "NC": 135,
       "ND": 12,
       "NE": 31,
       "NH": 9,
@@ -51,32 +58,32 @@
       "NM": 26,
       "NV": 18,
       "NY": 656,
-      "OH": 166,
+      "OH": 165,
       "OK": 22,
-      "OR": 31,
-      "PA": 235,
+      "OR": 30,
+      "PA": 234,
       "PR": 7,
       "RI": 12,
       "SC": 40,
       "SD": 6,
       "TN": 72,
-      "TX": 466,
+      "TX": 464,
       "UT": 20,
-      "VA": 172,
+      "VA": 171,
       "VT": 3,
       "WA": 123,
       "WI": 55,
       "WV": 9,
       "WY": 3
     },
-    "withWebsite": 3126,
-    "withPhone": 3778,
-    "withLiveProvider": 3832,
-    "withPublishedSnapshot": 2508,
+    "withWebsite": 3122,
+    "withPhone": 3772,
+    "withLiveProvider": 3829,
+    "withPublishedSnapshot": 2507,
     "withCurrentPublishedSchedule": 2507,
     "withCurrentJumuah": 2420,
     "withFiveDailyIqamah": 1361,
-    "withoutLiveProvider": 1342,
+    "withoutLiveProvider": 1334,
     "completeCensus": false,
     "limits": [
       "Source union, not a certified exhaustive census.",
@@ -236,29 +243,6 @@
         ],
         "qualityIssues": []
       }
-    },
-    {
-      "id": "esalah/10190",
-      "name": "Salisbury Seventh-Day Adventist Church",
-      "address": "305 Rudolph Road, 28146",
-      "city": "Salisbury",
-      "region": "NC",
-      "country": "US",
-      "lat": 35.637876,
-      "lng": -80.454868,
-      "website": "https://www.salisburysdachurch.org/",
-      "phone": "+17046331282",
-      "sourceUrl": "https://esalah.com/mosques/united-states/north-carolina/salisbury/salisbury-seventh-day-adventist-church/",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "10190",
-          "url": "https://esalah.com/mosques/united-states/north-carolina/salisbury/salisbury-seventh-day-adventist-church/"
-        }
-      ],
-      "zone": "America/New_York",
-      "providers": {},
-      "aliases": []
     },
     {
       "id": "esalah/10228",
@@ -5021,29 +5005,6 @@
       "aliases": []
     },
     {
-      "id": "esalah/2613",
-      "name": "ICGA Muslim Cemetery",
-      "address": "1920 County Line Road, 78616",
-      "city": "Dale",
-      "region": "TX",
-      "country": "US",
-      "lat": 30.016766,
-      "lng": -97.592109,
-      "website": "https://www.austinmosque.org/",
-      "phone": "+15129612443",
-      "sourceUrl": "https://esalah.com/mosques/united-states/texas/dale/icga-muslim-cemetery/",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "2613",
-          "url": "https://esalah.com/mosques/united-states/texas/dale/icga-muslim-cemetery/"
-        }
-      ],
-      "zone": "America/Chicago",
-      "providers": {},
-      "aliases": []
-    },
-    {
       "id": "esalah/2614",
       "name": "Masjid Maryam (Mary the Virgin Mosque)",
       "address": "Moody, 78704",
@@ -5769,29 +5730,6 @@
         }
       ],
       "zone": "America/Indiana/Indianapolis",
-      "providers": {},
-      "aliases": []
-    },
-    {
-      "id": "esalah/2999",
-      "name": "Carbondale Cemetery",
-      "address": "15101 South Adams Road, 66414",
-      "city": "Carbondale",
-      "region": "KS",
-      "country": "US",
-      "lat": 38.796083,
-      "lng": -95.666502,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://esalah.com/mosques/united-states/kansas/carbondale/carbondale-cemetery/",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "2999",
-          "url": "https://esalah.com/mosques/united-states/kansas/carbondale/carbondale-cemetery/"
-        }
-      ],
-      "zone": "America/Chicago",
       "providers": {},
       "aliases": []
     },
@@ -7545,29 +7483,6 @@
         ],
         "qualityIssues": []
       }
-    },
-    {
-      "id": "esalah/47636",
-      "name": "New Gethsemane Baptist Church",
-      "address": "",
-      "city": "Philadelphia",
-      "region": "PA",
-      "country": "US",
-      "lat": 40.0475166,
-      "lng": -75.1630546,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://esalah.com/mosques/united-states/pennsylvania/philadelphia/new-gethsemane-baptist-church/",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "47636",
-          "url": "https://esalah.com/mosques/united-states/pennsylvania/philadelphia/new-gethsemane-baptist-church/"
-        }
-      ],
-      "zone": "America/New_York",
-      "providers": {},
-      "aliases": []
     },
     {
       "id": "esalah/48729",
@@ -9933,29 +9848,6 @@
         }
       ],
       "zone": "America/New_York",
-      "providers": {},
-      "aliases": []
-    },
-    {
-      "id": "esalah/8663",
-      "name": "Heritage Church of Dallas",
-      "address": "100 North Central Expressway, 75081",
-      "city": "Richardson",
-      "region": "TX",
-      "country": "US",
-      "lat": 32.951604,
-      "lng": -96.732988,
-      "website": "https://heritagechurchdallas.com/",
-      "phone": "+19722349015",
-      "sourceUrl": "https://esalah.com/mosques/united-states/texas/richardson/heritage-church-of-dallas/",
-      "sources": [
-        {
-          "provider": "esalah",
-          "id": "8663",
-          "url": "https://esalah.com/mosques/united-states/texas/richardson/heritage-church-of-dallas/"
-        }
-      ],
-      "zone": "America/Chicago",
       "providers": {},
       "aliases": []
     },
@@ -23190,55 +23082,6 @@
           810,
           855
         ],
-        "qualityIssues": []
-      }
-    },
-    {
-      "id": "masjidal/RKx6G8AO",
-      "name": "Joel Valle",
-      "address": "3242 mud alley road",
-      "city": "Hood river",
-      "region": "OR",
-      "country": "US",
-      "postalCode": "97031",
-      "lat": 45.6604,
-      "lng": -121.5686,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=RKx6G8AO",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "RKx6G8AO",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=RKx6G8AO"
-        }
-      ],
-      "providers": {
-        "masjidal": "RKx6G8AO"
-      },
-      "zone": "America/Los_Angeles",
-      "aliases": [],
-      "publishedSchedule": {
-        "provider": "masjidal",
-        "providerId": "RKx6G8AO",
-        "date": "2026-10-19",
-        "retrievedAt": "2026-10-18T11:09:57.425317+00:00",
-        "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=RKx6G8AO",
-        "iqamah": {
-          "Fajr": 127,
-          "Dhuhr": 531,
-          "Asr": 704,
-          "Maghrib": 853,
-          "Isha": 935
-        },
-        "prayers": {
-          "Fajr": 127,
-          "Dhuhr": 531,
-          "Asr": 704,
-          "Maghrib": 853,
-          "Isha": 935
-        },
-        "jumuah": [],
         "qualityIssues": []
       }
     },
@@ -37713,32 +37556,6 @@
         ],
         "qualityIssues": []
       }
-    },
-    {
-      "id": "node/13067642270",
-      "name": "AMA Cemetery",
-      "lat": 38.3595715,
-      "lng": -77.3938583,
-      "zone": "America/New_York",
-      "country": "US",
-      "address": "",
-      "city": "Fredericksburg",
-      "region": "VA",
-      "sourceUrl": "https://www.openstreetmap.org/node/13067642270",
-      "sources": [
-        {
-          "provider": "openstreetmap",
-          "id": "node/13067642270",
-          "url": "https://www.openstreetmap.org/node/13067642270"
-        },
-        {
-          "provider": "esalah",
-          "id": "152709",
-          "url": "https://esalah.com/mosques/united-states/virginia/fredericksburg/ama-cemetery/"
-        }
-      ],
-      "providers": {},
-      "aliases": []
     },
     {
       "id": "node/13067658068",
@@ -59851,32 +59668,6 @@
       "aliases": []
     },
     {
-      "id": "prayersconnect/84029782",
-      "name": "Church of Spiritual Unity",
-      "address": "Columbus, OH 43211, US",
-      "city": "Columbus",
-      "region": "OH",
-      "country": "US",
-      "lat": 40.00548,
-      "lng": -82.97517,
-      "zone": "America/New_York",
-      "website": null,
-      "phone": null,
-      "postalCode": "43211",
-      "providers": {
-        "prayersconnect": "84029782"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84029782",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84029782",
-          "url": "https://prayersconnect.com/mosques/84029782"
-        }
-      ],
-      "aliases": []
-    },
-    {
       "id": "prayersconnect/84029849",
       "name": "Jamia Aniston",
       "address": "1928 Christine Ave, Anniston, AL 36207, US",
@@ -80072,32 +79863,6 @@
         "jumuah": [],
         "qualityIssues": []
       }
-    },
-    {
-      "id": "prayersconnect/84098161",
-      "name": "Al Rahma Muslim Cemetery",
-      "address": "21564 N Rahma St, Maricopa, AZ 85139, US",
-      "city": "Maricopa",
-      "region": "AZ",
-      "country": "US",
-      "lat": 33.07525,
-      "lng": -112.19243,
-      "zone": "America/Phoenix",
-      "website": "http://tempemosque.com/funeral-2/",
-      "phone": "+1 480-894-6070",
-      "postalCode": "85139",
-      "providers": {
-        "prayersconnect": "84098161"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84098161",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84098161",
-          "url": "https://prayersconnect.com/mosques/84098161"
-        }
-      ],
-      "aliases": []
     },
     {
       "id": "prayersconnect/84098185",
@@ -122479,30 +122244,6 @@
       ]
     },
     {
-      "id": "usa/89fe4a0b-deaa-5281-adda-d95a249fdfa7",
-      "name": "Muslim Cemetery",
-      "address": "5449 Graystone Ct",
-      "city": "Greensboro",
-      "region": "NC",
-      "country": "US",
-      "postalCode": "27406",
-      "lat": 35.968585,
-      "lng": -79.853922,
-      "website": null,
-      "phone": "+1336-885-0786",
-      "sourceUrl": "https://masjidsinusa.com/states/north-carolina/",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "89fe4a0b-deaa-5281-adda-d95a249fdfa7",
-          "url": "https://masjidsinusa.com/states/north-carolina/"
-        }
-      ],
-      "zone": "America/New_York",
-      "providers": {},
-      "aliases": []
-    },
-    {
       "id": "usa/8a0d1bbe-f5f0-5358-99d5-aa97094ccafc",
       "name": "HIRA Institute",
       "address": "3819 Bardstown Rd",
@@ -133554,7 +133295,7 @@
         "providerId": "https://us.mohid.co/ca/losangeles/icnaie/masjid/widget/api/index/?m=prayertimings",
         "sourceUrl": "https://us.mohid.co/ca/losangeles/icnaie/masjid/widget/api/index/?m=prayertimings",
         "date": "2026-10-18",
-        "retrievedAt": "2026-10-18T11:17:04.526867+00:00",
+        "retrievedAt": "2026-10-18T17:14:09.894877+00:00",
         "iqamah": {
           "Asr": 1035,
           "Maghrib": 1099,
@@ -141047,7 +140788,7 @@
         "providerId": "https://us.mohid.co/ca/sacramento/mcyc/masjid/widget/api/index/?m=prayertimings",
         "sourceUrl": "https://us.mohid.co/ca/sacramento/mcyc/masjid/widget/api/index/?m=prayertimings",
         "date": "2026-10-18",
-        "retrievedAt": "2026-10-18T11:17:05.293074+00:00",
+        "retrievedAt": "2026-10-18T17:14:10.640421+00:00",
         "iqamah": {
           "Fajr": 390,
           "Dhuhr": 810,
@@ -141056,7 +140797,7 @@
           "Isha": 1200
         },
         "prayers": {
-          "Fajr": 365,
+          "Fajr": 366,
           "Dhuhr": 772,
           "Asr": 958,
           "Maghrib": 1105,
@@ -177102,30 +176843,6 @@
       }
     },
     {
-      "id": "usa/f6ca13b2-3186-507e-820a-e41fdba5725a",
-      "name": "Roseville Islamic Cemetery",
-      "address": "270 County B Rd W",
-      "city": "Roseville",
-      "region": "MN",
-      "country": "US",
-      "postalCode": "55113",
-      "lat": 45.0042648,
-      "lng": -93.1114425,
-      "website": null,
-      "phone": "+1952-476-8394",
-      "sourceUrl": "https://masjidsinusa.com/states/minnesota/",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "f6ca13b2-3186-507e-820a-e41fdba5725a",
-          "url": "https://masjidsinusa.com/states/minnesota/"
-        }
-      ],
-      "zone": "America/Chicago",
-      "providers": {},
-      "aliases": []
-    },
-    {
       "id": "usa/f6e00693-961e-5b0b-8293-fef2e220e731",
       "name": "Islamic Society of Northwest Suburbs",
       "address": "1200 Hicks Rd",
@@ -188344,7 +188061,7 @@
         "providerId": "https://us.mohid.co/il/school/cimic/masjid/widget/api/index/?m=prayertimings",
         "sourceUrl": "https://us.mohid.co/il/school/cimic/masjid/widget/api/index/?m=prayertimings",
         "date": "2026-10-18",
-        "retrievedAt": "2026-10-18T11:17:06.055238+00:00",
+        "retrievedAt": "2026-10-18T17:14:11.444772+00:00",
         "iqamah": {
           "Asr": 980,
           "Maghrib": 1102,
@@ -196789,7 +196506,7 @@
         "providerId": "https://us.mohid.co/md/mdrgn/isb/masjid/widget/api/index/?m=prayertimings",
         "sourceUrl": "https://us.mohid.co/md/mdrgn/isb/masjid/widget/api/index/?m=prayertimings",
         "date": "2026-10-18",
-        "retrievedAt": "2026-10-18T11:17:06.873763+00:00",
+        "retrievedAt": "2026-10-18T17:14:12.283885+00:00",
         "iqamah": {
           "Fajr": 390,
           "Dhuhr": 810,
@@ -196798,7 +196515,7 @@
           "Isha": 1200
         },
         "prayers": {
-          "Fajr": 366,
+          "Fajr": 367,
           "Dhuhr": 773,
           "Asr": 958,
           "Maghrib": 1108,
@@ -223485,7 +223202,7 @@
         "providerId": "https://us.mohid.co/fl/tampa/issb/masjid/widget/api/index/?m=prayertimings",
         "sourceUrl": "https://us.mohid.co/fl/tampa/issb/masjid/widget/api/index/?m=prayertimings",
         "date": "2026-10-18",
-        "retrievedAt": "2026-10-18T11:17:07.624023+00:00",
+        "retrievedAt": "2026-10-18T17:14:13.077924+00:00",
         "iqamah": {
           "Fajr": 408,
           "Asr": 1022,

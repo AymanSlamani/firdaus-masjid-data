@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-10-18T11:48:48.439056+00:00",
-  "locations": 5174,
-  "providerLinked": 3832,
-  "publishedSchedules": 2508,
-  "statesAndTerritories": 52,
+  "generatedAt": "2026-10-18T17:17:17.873730+00:00",
+  "locations": 5163,
+  "providerLinked": 3829,
+  "publishedSchedules": 2507,
   "currentPublishedSchedules": 2507,
   "withFridaySessions": 2420,
-  "completeCensus": false
+  "statesAndTerritories": 52,
+  "completeCensus": false,
+  "refreshWarnings": [
+    {
+      "source": "import-masjids.py",
+      "previousSnapshotRetained": true
+    }
+  ]
 }

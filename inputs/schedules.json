@@ -76088,7 +76088,7 @@
       "providerId": "https://us.mohid.co/ca/losangeles/icnaie/masjid/widget/api/index/?m=prayertimings",
       "sourceUrl": "https://us.mohid.co/ca/losangeles/icnaie/masjid/widget/api/index/?m=prayertimings",
       "date": "2026-10-18",
-      "retrievedAt": "2026-10-18T11:17:04.526867+00:00",
+      "retrievedAt": "2026-10-18T17:14:09.894877+00:00",
       "iqamah": {
         "Asr": 1035,
         "Maghrib": 1099,
@@ -76114,7 +76114,7 @@
       "providerId": "https://us.mohid.co/ca/sacramento/mcyc/masjid/widget/api/index/?m=prayertimings",
       "sourceUrl": "https://us.mohid.co/ca/sacramento/mcyc/masjid/widget/api/index/?m=prayertimings",
       "date": "2026-10-18",
-      "retrievedAt": "2026-10-18T11:17:05.293074+00:00",
+      "retrievedAt": "2026-10-18T17:14:10.640421+00:00",
       "iqamah": {
         "Fajr": 390,
         "Dhuhr": 810,
@@ -76123,7 +76123,7 @@
         "Isha": 1200
       },
       "prayers": {
-        "Fajr": 365,
+        "Fajr": 366,
         "Dhuhr": 772,
         "Asr": 958,
         "Maghrib": 1105,
@@ -76154,7 +76154,7 @@
       "providerId": "https://us.mohid.co/il/school/cimic/masjid/widget/api/index/?m=prayertimings",
       "sourceUrl": "https://us.mohid.co/il/school/cimic/masjid/widget/api/index/?m=prayertimings",
       "date": "2026-10-18",
-      "retrievedAt": "2026-10-18T11:17:06.055238+00:00",
+      "retrievedAt": "2026-10-18T17:14:11.444772+00:00",
       "iqamah": {
         "Asr": 980,
         "Maghrib": 1102,
@@ -76183,7 +76183,7 @@
       "providerId": "https://us.mohid.co/md/mdrgn/isb/masjid/widget/api/index/?m=prayertimings",
       "sourceUrl": "https://us.mohid.co/md/mdrgn/isb/masjid/widget/api/index/?m=prayertimings",
       "date": "2026-10-18",
-      "retrievedAt": "2026-10-18T11:17:06.873763+00:00",
+      "retrievedAt": "2026-10-18T17:14:12.283885+00:00",
       "iqamah": {
         "Fajr": 390,
         "Dhuhr": 810,
@@ -76192,7 +76192,7 @@
         "Isha": 1200
       },
       "prayers": {
-        "Fajr": 366,
+        "Fajr": 367,
         "Dhuhr": 773,
         "Asr": 958,
         "Maghrib": 1108,
@@ -76223,7 +76223,7 @@
       "providerId": "https://us.mohid.co/fl/tampa/issb/masjid/widget/api/index/?m=prayertimings",
       "sourceUrl": "https://us.mohid.co/fl/tampa/issb/masjid/widget/api/index/?m=prayertimings",
       "date": "2026-10-18",
-      "retrievedAt": "2026-10-18T11:17:07.624023+00:00",
+      "retrievedAt": "2026-10-18T17:14:13.077924+00:00",
       "iqamah": {
         "Fajr": 408,
         "Asr": 1022,
