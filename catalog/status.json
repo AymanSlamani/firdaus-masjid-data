@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-18T11:29:29.416314+00:00",
+  "generatedAt": "2026-10-18T11:48:48.439056+00:00",
   "locations": 5174,
   "providerLinked": 3832,
-  "publishedSchedules": 1365,
-  "currentPublishedSchedules": 1365,
-  "withFridaySessions": 1293,
+  "publishedSchedules": 2508,
   "statesAndTerritories": 52,
+  "currentPublishedSchedules": 2507,
+  "withFridaySessions": 2420,
   "completeCensus": false
 }
