@@ -1,0 +1,29 @@
+Directory attribution and data notices
+
+OpenStreetMap-derived records: copyright OpenStreetMap contributors,
+available under the Open Data Commons Open Database License (ODbL) v1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+https://opendatacommons.org/licenses/dbcl/1-0/
+Original OSM source references and identifiers are retained in each record.
+
+Additional public factual directory/timetable sources are attributed per record:
+MasjidsInUSA — https://masjidsinusa.com/
+Masjidal — https://masjidal.com/
+MOHID mosque-embedded public timetable widgets — https://mohid.co/
+eSalah public developer API — https://esalah.com/developers/
+Their names and trademarks remain their owners' property. Inclusion does not
+assert an endorsement, partnership, verification, or API service guarantee.
+No third-party photos, reviews, descriptions, or private administrator fields
+are reproduced. This notice does not grant rights in third-party branding or
+extend any provider's API access beyond its published terms.
+
+US state boundaries: US Census Bureau 2024, public cartographic boundary data.
+https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_20m.zip
+Import-time timezone lookup: tzfpy 2.1.1, MIT, with geographic boundaries
+ultimately derived from OpenStreetMap.
+https://github.com/ringsaturn/tzfpy
+
+The feed is an aggregation of public facts. ODbL obligations apply to the
+OpenStreetMap-derived database. All source dates and provenance remain attached.
+Source import/retrieval is not a claim that a timetable was independently verified.
