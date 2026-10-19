@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:17:17.873730+00:00",
+  "generatedAt": "2026-10-19T19:12:25.737672+00:00",
   "count": 2656,
   "locations": [
     {
@@ -32368,21 +32368,6 @@
       ]
     },
     {
-      "id": "usa/a298e52d-8699-5e88-bca8-95a32e5fee77",
-      "name": "The Quran Center of Knoxville",
-      "city": "Knoxville",
-      "state": "TN",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "a298e52d-8699-5e88-bca8-95a32e5fee77",
-          "url": "https://masjidsinusa.com/states/tennessee/"
-        }
-      ]
-    },
-    {
       "id": "usa/a2dce80f-eaf3-5348-a6ae-1a84b71ef011",
       "name": "Islamic Center of Wilsonالله مسجد المركز الاسلامي في ولسون",
       "city": "Wilson",
@@ -34554,6 +34539,26 @@
           "provider": "prayersconnect",
           "id": "84071869",
           "url": "https://prayersconnect.com/mosques/84071869"
+        }
+      ]
+    },
+    {
+      "id": "usa/be53313b-6551-53b4-850b-b67568c4e412",
+      "name": "Al-Tawheed Mosque",
+      "city": "Brooklyn",
+      "state": "NY",
+      "website": "https://masjidbox.com/namajera-samaya/masjid-tawheed",
+      "reason": "no_current_provider_schedule",
+      "sources": [
+        {
+          "provider": "masjidsinusa",
+          "id": "be53313b-6551-53b4-850b-b67568c4e412",
+          "url": "https://masjidsinusa.com/states/new-york/"
+        },
+        {
+          "provider": "prayersconnect",
+          "id": "84002490",
+          "url": "https://prayersconnect.com/mosques/84002490"
         }
       ]
     },

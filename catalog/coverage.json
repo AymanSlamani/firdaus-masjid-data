@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:17:17.873730+00:00",
+  "generatedAt": "2026-10-19T19:12:25.737672+00:00",
   "inputRecords": {
     "openstreetmap": 1209,
     "masjidsinusa": 3062,
@@ -9,8 +9,8 @@
   },
   "sourceSnapshots": {
     "openstreetmap": "2026-10-18T10:08:51Z",
-    "masjidsinusa": "2026-10-18T11:34:54.354925+00:00",
-    "masjidal": "2026-10-18T11:34:54.354925+00:00",
+    "masjidsinusa": "2026-10-19T18:45:07.237245+00:00",
+    "masjidal": "2026-10-19T18:45:07.237245+00:00",
     "esalah": "2026-10-18T11:28:56.858107+00:00",
     "prayersconnect": "2026-10-18T11:29:58.643870+00:00"
   },
@@ -6753,14 +6753,14 @@
       "confidence": 0.95
     },
     {
-      "kept": "way/902492838",
-      "merged": "masjidal/OA8agbdp",
-      "confidence": 0.95
-    },
-    {
       "kept": "usa/bfd41d9d-729a-5f73-8496-533a44cdbe26",
       "merged": "masjidal/eLQ2EjAM",
       "confidence": 0.94
+    },
+    {
+      "kept": "way/902492838",
+      "merged": "masjidal/OA8agbdp",
+      "confidence": 0.95
     },
     {
       "kept": "usa/bc127f33-c031-5cf7-a51f-bfc25101d9f1",
@@ -6778,13 +6778,13 @@
       "confidence": 0.96
     },
     {
-      "kept": "usa/cafeac9d-4a02-5961-9a34-294981c5e138",
-      "merged": "masjidal/5AvoZ2dX",
+      "kept": "usa/b49a2fdb-1967-5b7d-9a80-1ae4afd7cd27",
+      "merged": "masjidal/QKMrOqLB",
       "confidence": 0.94
     },
     {
-      "kept": "usa/b49a2fdb-1967-5b7d-9a80-1ae4afd7cd27",
-      "merged": "masjidal/QKMrOqLB",
+      "kept": "usa/cafeac9d-4a02-5961-9a34-294981c5e138",
+      "merged": "masjidal/5AvoZ2dX",
       "confidence": 0.94
     },
     {
@@ -24903,9 +24903,9 @@
       "confidence": 0.96
     },
     {
-      "kept": "masjidal/BYADPlAN",
+      "kept": "usa/a298e52d-8699-5e88-bca8-95a32e5fee77",
       "merged": "prayersconnect/84066625",
-      "confidence": 0.97
+      "confidence": 0.95
     },
     {
       "kept": "way/271290369",
@@ -32076,14 +32076,14 @@
     "WV": 9,
     "WY": 3
   },
-  "withWebsite": 3122,
+  "withWebsite": 3123,
   "withPhone": 3772,
-  "withLiveProvider": 3829,
+  "withLiveProvider": 3830,
   "withPublishedSnapshot": 2507,
   "withCurrentPublishedSchedule": 2507,
   "withCurrentJumuah": 2420,
   "withFiveDailyIqamah": 1361,
-  "withoutLiveProvider": 1334,
+  "withoutLiveProvider": 1333,
   "providerAccountConflicts": [
     {
       "id": "masjidal/8K9qBEKp",

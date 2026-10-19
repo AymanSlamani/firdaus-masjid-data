@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-18T11:34:54.354925+00:00",
+  "importedAt": "2026-10-19T18:45:07.237245+00:00",
   "masjids": [
     {
       "id": "masjidal/xdyqbZdX",
@@ -11977,31 +11977,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/YADWXNLN",
-      "name": "Islamic Center of Johnson County",
-      "address": "",
-      "city": "Overland Park",
-      "region": "Kansas",
-      "country": "US",
-      "postalCode": "66221",
-      "lat": 38.9822,
-      "lng": -94.6708,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADWXNLN",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "YADWXNLN",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADWXNLN"
-        }
-      ],
-      "providers": {
-        "masjidal": "YADWXNLN"
-      },
-      "shellAccount": true
-    },
-    {
       "id": "masjidal/M0dY0yA6",
       "name": "Islamic Center of Johnson County",
       "address": "9005 W 151st St",
@@ -12025,6 +12000,31 @@
         "masjidal": "M0dY0yA6"
       },
       "shellAccount": false
+    },
+    {
+      "id": "masjidal/YADWXNLN",
+      "name": "Islamic Center of Johnson County",
+      "address": "",
+      "city": "Overland Park",
+      "region": "Kansas",
+      "country": "US",
+      "postalCode": "66221",
+      "lat": 38.9822,
+      "lng": -94.6708,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADWXNLN",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "YADWXNLN",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADWXNLN"
+        }
+      ],
+      "providers": {
+        "masjidal": "YADWXNLN"
+      },
+      "shellAccount": true
     },
     {
       "id": "masjidal/kAk2ojLq",
@@ -17449,7 +17449,7 @@
       "providers": {
         "masjidal": "8L76xQK5"
       },
-      "shellAccount": false
+      "shellAccount": true
     },
     {
       "id": "masjidal/rGAEwnKn",
@@ -20277,31 +20277,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/OA8agbdp",
-      "name": "Masjid Al Mustafa",
-      "address": "24039 S Val Vista Dr",
-      "city": "Chandler",
-      "region": "Arizona",
-      "country": "US",
-      "postalCode": "85249",
-      "lat": 33.2288,
-      "lng": -111.7559,
-      "website": "https://masjidalmustafa.org",
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8agbdp",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "OA8agbdp",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8agbdp"
-        }
-      ],
-      "providers": {
-        "masjidal": "OA8agbdp"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/eLQ2EjAM",
       "name": "Masjid Al Mustafa",
       "address": "300 E 55th St",
@@ -20323,6 +20298,31 @@
       ],
       "providers": {
         "masjidal": "eLQ2EjAM"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/OA8agbdp",
+      "name": "Masjid Al Mustafa",
+      "address": "24039 S Val Vista Dr",
+      "city": "Chandler",
+      "region": "Arizona",
+      "country": "US",
+      "postalCode": "85249",
+      "lat": 33.2288,
+      "lng": -111.7559,
+      "website": "https://masjidalmustafa.org",
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8agbdp",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "OA8agbdp",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8agbdp"
+        }
+      ],
+      "providers": {
+        "masjidal": "OA8agbdp"
       },
       "shellAccount": false
     },
@@ -20427,31 +20427,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/5AvoZ2dX",
-      "name": "Masjid Al Rahman",
-      "address": "1235 Peachtree Pkwy",
-      "city": "Cumming",
-      "region": "Georgia",
-      "country": "US",
-      "postalCode": "30041",
-      "lat": 34.1314,
-      "lng": -84.17,
-      "website": "https://alrahmanmasjid.com",
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=5AvoZ2dX",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "5AvoZ2dX",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=5AvoZ2dX"
-        }
-      ],
-      "providers": {
-        "masjidal": "5AvoZ2dX"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/QKMrOqLB",
       "name": "Masjid Al Rahman",
       "address": "6040 N 43rd Ave",
@@ -20473,6 +20448,31 @@
       ],
       "providers": {
         "masjidal": "QKMrOqLB"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/5AvoZ2dX",
+      "name": "Masjid Al Rahman",
+      "address": "1235 Peachtree Pkwy",
+      "city": "Cumming",
+      "region": "Georgia",
+      "country": "US",
+      "postalCode": "30041",
+      "lat": 34.1314,
+      "lng": -84.17,
+      "website": "https://alrahmanmasjid.com",
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=5AvoZ2dX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "5AvoZ2dX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=5AvoZ2dX"
+        }
+      ],
+      "providers": {
+        "masjidal": "5AvoZ2dX"
       },
       "shellAccount": false
     },
@@ -21127,31 +21127,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/1QL0GKZD",
-      "name": "Masjid Al-Huda",
-      "address": "1081 Irving Park Rd",
-      "city": "Schaumburg",
-      "region": "IL",
-      "country": "US",
-      "postalCode": "60193",
-      "lat": 41.9978,
-      "lng": -88.1187,
-      "website": "https://masjidalhuda.org/",
-      "phone": "6305291786",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "1QL0GKZD",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD"
-        }
-      ],
-      "providers": {
-        "masjidal": "1QL0GKZD"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/wLVp0ydJ",
       "name": "MASJID AL-HUDA",
       "address": "3043 Voorhies Ave",
@@ -21173,6 +21148,31 @@
       ],
       "providers": {
         "masjidal": "wLVp0ydJ"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/1QL0GKZD",
+      "name": "Masjid Al-Huda",
+      "address": "1081 Irving Park Rd",
+      "city": "Schaumburg",
+      "region": "IL",
+      "country": "US",
+      "postalCode": "60193",
+      "lat": 41.9978,
+      "lng": -88.1187,
+      "website": "https://masjidalhuda.org/",
+      "phone": "6305291786",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "1QL0GKZD",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD"
+        }
+      ],
+      "providers": {
+        "masjidal": "1QL0GKZD"
       },
       "shellAccount": false
     },
@@ -21577,31 +21577,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/3AOajEKe",
-      "name": "Masjid Al-Khair",
-      "address": "1670 Homewood Ave",
-      "city": "Youngstown",
-      "region": "Ohio",
-      "country": "US",
-      "postalCode": "44502",
-      "lat": 41.0768,
-      "lng": -80.6269,
-      "website": "https://www.isgyohio.org/",
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=3AOajEKe",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "3AOajEKe",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=3AOajEKe"
-        }
-      ],
-      "providers": {
-        "masjidal": "3AOajEKe"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/8K9O0nAp",
       "name": "Masjid Al-Khair",
       "address": "310 14th St SE, Rochester, MN 55904",
@@ -21623,6 +21598,31 @@
       ],
       "providers": {
         "masjidal": "8K9O0nAp"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/3AOajEKe",
+      "name": "Masjid Al-Khair",
+      "address": "1670 Homewood Ave",
+      "city": "Youngstown",
+      "region": "Ohio",
+      "country": "US",
+      "postalCode": "44502",
+      "lat": 41.0768,
+      "lng": -80.6269,
+      "website": "https://www.isgyohio.org/",
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=3AOajEKe",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "3AOajEKe",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=3AOajEKe"
+        }
+      ],
+      "providers": {
+        "masjidal": "3AOajEKe"
       },
       "shellAccount": false
     },
@@ -21902,31 +21902,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/OA8axrdp",
-      "name": "Masjid AL-Rahma",
-      "address": "9844 Skewlee Rd",
-      "city": "Thonotosassa",
-      "region": "Florida",
-      "country": "US",
-      "postalCode": "33592",
-      "lat": 28.051,
-      "lng": -82.3157,
-      "website": "https://alrahmamasjid.org/",
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8axrdp",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "OA8axrdp",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8axrdp"
-        }
-      ],
-      "providers": {
-        "masjidal": "OA8axrdp"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/kK3G51Ke",
       "name": "MASJID AL-RAHMA",
       "address": "2916 E McDowell Rd",
@@ -21948,6 +21923,31 @@
       ],
       "providers": {
         "masjidal": "kK3G51Ke"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/OA8axrdp",
+      "name": "Masjid AL-Rahma",
+      "address": "9844 Skewlee Rd",
+      "city": "Thonotosassa",
+      "region": "Florida",
+      "country": "US",
+      "postalCode": "33592",
+      "lat": 28.051,
+      "lng": -82.3157,
+      "website": "https://alrahmamasjid.org/",
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8axrdp",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "OA8axrdp",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=OA8axrdp"
+        }
+      ],
+      "providers": {
+        "masjidal": "OA8axrdp"
       },
       "shellAccount": false
     },
@@ -24352,31 +24352,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/0xdy63KX",
-      "name": "Masjid Dawah",
-      "address": "206 N Homan Ave.",
-      "city": "Chicago",
-      "region": "IL",
-      "country": "US",
-      "postalCode": "60624",
-      "lat": 41.885,
-      "lng": -87.7113,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "0xdy63KX",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX"
-        }
-      ],
-      "providers": {
-        "masjidal": "0xdy63KX"
-      },
-      "shellAccount": true
-    },
-    {
       "id": "masjidal/0AWpVWdj",
       "name": "Masjid Dawah",
       "address": "605 Fairview Ave N",
@@ -24400,6 +24375,31 @@
         "masjidal": "0AWpVWdj"
       },
       "shellAccount": false
+    },
+    {
+      "id": "masjidal/0xdy63KX",
+      "name": "Masjid Dawah",
+      "address": "206 N Homan Ave.",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "postalCode": "60624",
+      "lat": 41.885,
+      "lng": -87.7113,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "0xdy63KX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX"
+        }
+      ],
+      "providers": {
+        "masjidal": "0xdy63KX"
+      },
+      "shellAccount": true
     },
     {
       "id": "masjidal/adJkkqKk",
@@ -31536,7 +31536,7 @@
       "postalCode": "37919",
       "lat": 35.922,
       "lng": -84.0526,
-      "website": "https://quranknox.org",
+      "website": "https://qurancenterofknoxville.com",
       "phone": "5126745655",
       "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=BYADPlAN",
       "sources": [
