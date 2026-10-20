@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T19:12:25.737672+00:00",
+  "generatedAt": "2026-10-20T17:43:25.470400+00:00",
   "inputRecords": {
     "openstreetmap": 1209,
     "masjidsinusa": 3062,
@@ -9,8 +9,8 @@
   },
   "sourceSnapshots": {
     "openstreetmap": "2026-10-18T10:08:51Z",
-    "masjidsinusa": "2026-10-19T18:45:07.237245+00:00",
-    "masjidal": "2026-10-19T18:45:07.237245+00:00",
+    "masjidsinusa": "2026-10-20T17:17:27.042046+00:00",
+    "masjidal": "2026-10-20T17:17:27.042046+00:00",
     "esalah": "2026-10-18T11:28:56.858107+00:00",
     "prayersconnect": "2026-10-18T11:29:58.643870+00:00"
   },
@@ -32079,8 +32079,8 @@
   "withWebsite": 3123,
   "withPhone": 3772,
   "withLiveProvider": 3830,
-  "withPublishedSnapshot": 2507,
-  "withCurrentPublishedSchedule": 2507,
+  "withPublishedSnapshot": 2508,
+  "withCurrentPublishedSchedule": 2508,
   "withCurrentJumuah": 2420,
   "withFiveDailyIqamah": 1361,
   "withoutLiveProvider": 1333,

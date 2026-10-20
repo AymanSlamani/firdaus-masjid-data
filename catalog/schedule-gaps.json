@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T19:12:25.737672+00:00",
-  "count": 2656,
+  "generatedAt": "2026-10-20T17:43:25.470400+00:00",
+  "count": 2655,
   "locations": [
     {
       "id": "esalah/10000",
@@ -34539,26 +34539,6 @@
           "provider": "prayersconnect",
           "id": "84071869",
           "url": "https://prayersconnect.com/mosques/84071869"
-        }
-      ]
-    },
-    {
-      "id": "usa/be53313b-6551-53b4-850b-b67568c4e412",
-      "name": "Al-Tawheed Mosque",
-      "city": "Brooklyn",
-      "state": "NY",
-      "website": "https://masjidbox.com/namajera-samaya/masjid-tawheed",
-      "reason": "no_current_provider_schedule",
-      "sources": [
-        {
-          "provider": "masjidsinusa",
-          "id": "be53313b-6551-53b4-850b-b67568c4e412",
-          "url": "https://masjidsinusa.com/states/new-york/"
-        },
-        {
-          "provider": "prayersconnect",
-          "id": "84002490",
-          "url": "https://prayersconnect.com/mosques/84002490"
         }
       ]
     },
