@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-20T17:17:27.042046+00:00",
+  "importedAt": "2026-10-21T17:20:18.415549+00:00",
   "masjids": [
     {
       "id": "masjidal/xdyqbZdX",
@@ -459,9 +459,9 @@
       "region": "AZ",
       "country": "US",
       "postalCode": "85042",
-      "lat": 33.3756,
-      "lng": -111.9929,
-      "website": "https://www.azacademy.org/about-aca/masjid-community.cfm",
+      "lat": 33.3757,
+      "lng": -111.9928,
+      "website": "https://www.azacademy.org",
       "phone": null,
       "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=pPAPmNdJ",
       "sources": [
@@ -3323,6 +3323,31 @@
       ],
       "providers": {
         "masjidal": "5Avo7MdX"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/xdyqBXdX",
+      "name": "As-Siddiq Muslim Organization",
+      "address": "117-25 133rd St",
+      "city": "South Ozone Park",
+      "region": "NY",
+      "country": "US",
+      "postalCode": "11420",
+      "lat": 40.6761,
+      "lng": -73.8057,
+      "website": "https://www.assiddiq.org",
+      "phone": "17185234167",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqBXdX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "xdyqBXdX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqBXdX"
+        }
+      ],
+      "providers": {
+        "masjidal": "xdyqBXdX"
       },
       "shellAccount": false
     },
@@ -11977,31 +12002,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/M0dY0yA6",
-      "name": "Islamic Center of Johnson County",
-      "address": "9005 W 151st St",
-      "city": "Overland Park",
-      "region": "Kansas",
-      "country": "US",
-      "postalCode": "66221",
-      "lat": 38.8538,
-      "lng": -94.691,
-      "website": "https://www.icjc.org/",
-      "phone": "9132390770",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=M0dY0yA6",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "M0dY0yA6",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=M0dY0yA6"
-        }
-      ],
-      "providers": {
-        "masjidal": "M0dY0yA6"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/YADWXNLN",
       "name": "Islamic Center of Johnson County",
       "address": "",
@@ -12025,6 +12025,31 @@
         "masjidal": "YADWXNLN"
       },
       "shellAccount": true
+    },
+    {
+      "id": "masjidal/M0dY0yA6",
+      "name": "Islamic Center of Johnson County",
+      "address": "9005 W 151st St",
+      "city": "Overland Park",
+      "region": "Kansas",
+      "country": "US",
+      "postalCode": "66221",
+      "lat": 38.8538,
+      "lng": -94.691,
+      "website": "https://www.icjc.org/",
+      "phone": "9132390770",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=M0dY0yA6",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "M0dY0yA6",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=M0dY0yA6"
+        }
+      ],
+      "providers": {
+        "masjidal": "M0dY0yA6"
+      },
+      "shellAccount": false
     },
     {
       "id": "masjidal/kAk2ojLq",
@@ -20277,31 +20302,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/eLQ2EjAM",
-      "name": "Masjid Al Mustafa",
-      "address": "300 E 55th St",
-      "city": "Westmont",
-      "region": "Illinois",
-      "country": "US",
-      "postalCode": "60559",
-      "lat": 41.7886,
-      "lng": -87.9675,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=eLQ2EjAM",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "eLQ2EjAM",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=eLQ2EjAM"
-        }
-      ],
-      "providers": {
-        "masjidal": "eLQ2EjAM"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/OA8agbdp",
       "name": "Masjid Al Mustafa",
       "address": "24039 S Val Vista Dr",
@@ -20323,6 +20323,31 @@
       ],
       "providers": {
         "masjidal": "OA8agbdp"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/eLQ2EjAM",
+      "name": "Masjid Al Mustafa",
+      "address": "300 E 55th St",
+      "city": "Westmont",
+      "region": "Illinois",
+      "country": "US",
+      "postalCode": "60559",
+      "lat": 41.7886,
+      "lng": -87.9675,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=eLQ2EjAM",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "eLQ2EjAM",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=eLQ2EjAM"
+        }
+      ],
+      "providers": {
+        "masjidal": "eLQ2EjAM"
       },
       "shellAccount": false
     },
@@ -20427,31 +20452,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/QKMrOqLB",
-      "name": "Masjid Al Rahman",
-      "address": "6040 N 43rd Ave",
-      "city": "Glendale",
-      "region": "Arizona",
-      "country": "US",
-      "postalCode": "85301",
-      "lat": 33.5256,
-      "lng": -112.152,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=QKMrOqLB",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "QKMrOqLB",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=QKMrOqLB"
-        }
-      ],
-      "providers": {
-        "masjidal": "QKMrOqLB"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/5AvoZ2dX",
       "name": "Masjid Al Rahman",
       "address": "1235 Peachtree Pkwy",
@@ -20473,6 +20473,31 @@
       ],
       "providers": {
         "masjidal": "5AvoZ2dX"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/QKMrOqLB",
+      "name": "Masjid Al Rahman",
+      "address": "6040 N 43rd Ave",
+      "city": "Glendale",
+      "region": "Arizona",
+      "country": "US",
+      "postalCode": "85301",
+      "lat": 33.5256,
+      "lng": -112.152,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=QKMrOqLB",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "QKMrOqLB",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=QKMrOqLB"
+        }
+      ],
+      "providers": {
+        "masjidal": "QKMrOqLB"
       },
       "shellAccount": false
     },
@@ -21127,31 +21152,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/wLVp0ydJ",
-      "name": "MASJID AL-HUDA",
-      "address": "3043 Voorhies Ave",
-      "city": "Brooklyn",
-      "region": "New York",
-      "country": "US",
-      "postalCode": "11235",
-      "lat": 40.588,
-      "lng": -73.9349,
-      "website": null,
-      "phone": "9297206334",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=wLVp0ydJ",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "wLVp0ydJ",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=wLVp0ydJ"
-        }
-      ],
-      "providers": {
-        "masjidal": "wLVp0ydJ"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/1QL0GKZD",
       "name": "Masjid Al-Huda",
       "address": "1081 Irving Park Rd",
@@ -21173,6 +21173,31 @@
       ],
       "providers": {
         "masjidal": "1QL0GKZD"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/wLVp0ydJ",
+      "name": "MASJID AL-HUDA",
+      "address": "3043 Voorhies Ave",
+      "city": "Brooklyn",
+      "region": "New York",
+      "country": "US",
+      "postalCode": "11235",
+      "lat": 40.588,
+      "lng": -73.9349,
+      "website": null,
+      "phone": "9297206334",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=wLVp0ydJ",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "wLVp0ydJ",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=wLVp0ydJ"
+        }
+      ],
+      "providers": {
+        "masjidal": "wLVp0ydJ"
       },
       "shellAccount": false
     },
@@ -21577,31 +21602,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/8K9O0nAp",
-      "name": "Masjid Al-Khair",
-      "address": "310 14th St SE, Rochester, MN 55904",
-      "city": "Rochester",
-      "region": "MN",
-      "country": "US",
-      "postalCode": "55902",
-      "lat": 44.0121,
-      "lng": -92.4802,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=8K9O0nAp",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "8K9O0nAp",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=8K9O0nAp"
-        }
-      ],
-      "providers": {
-        "masjidal": "8K9O0nAp"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/3AOajEKe",
       "name": "Masjid Al-Khair",
       "address": "1670 Homewood Ave",
@@ -21623,6 +21623,31 @@
       ],
       "providers": {
         "masjidal": "3AOajEKe"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/8K9O0nAp",
+      "name": "Masjid Al-Khair",
+      "address": "310 14th St SE, Rochester, MN 55904",
+      "city": "Rochester",
+      "region": "MN",
+      "country": "US",
+      "postalCode": "55902",
+      "lat": 44.0121,
+      "lng": -92.4802,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=8K9O0nAp",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "8K9O0nAp",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=8K9O0nAp"
+        }
+      ],
+      "providers": {
+        "masjidal": "8K9O0nAp"
       },
       "shellAccount": false
     },
@@ -24352,31 +24377,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/0AWpVWdj",
-      "name": "Masjid Dawah",
-      "address": "605 Fairview Ave N",
-      "city": "Saint Paul",
-      "region": "Minnesota",
-      "country": "US",
-      "postalCode": "55104",
-      "lat": 44.9595,
-      "lng": -93.1779,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "0AWpVWdj",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj"
-        }
-      ],
-      "providers": {
-        "masjidal": "0AWpVWdj"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/0xdy63KX",
       "name": "Masjid Dawah",
       "address": "206 N Homan Ave.",
@@ -24400,6 +24400,31 @@
         "masjidal": "0xdy63KX"
       },
       "shellAccount": true
+    },
+    {
+      "id": "masjidal/0AWpVWdj",
+      "name": "Masjid Dawah",
+      "address": "605 Fairview Ave N",
+      "city": "Saint Paul",
+      "region": "Minnesota",
+      "country": "US",
+      "postalCode": "55104",
+      "lat": 44.9595,
+      "lng": -93.1779,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "0AWpVWdj",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj"
+        }
+      ],
+      "providers": {
+        "masjidal": "0AWpVWdj"
+      },
+      "shellAccount": false
     },
     {
       "id": "masjidal/adJkkqKk",
@@ -32502,31 +32527,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/wAa7meK1",
-      "name": "Selimiye Mosque",
-      "address": "105-A Oakland Ave",
-      "city": "Methuen",
-      "region": "Massachusetts",
-      "country": "US",
-      "postalCode": "01844",
-      "lat": 42.7203,
-      "lng": -71.1912,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=wAa7meK1",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "wAa7meK1",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=wAa7meK1"
-        }
-      ],
-      "providers": {
-        "masjidal": "wAa7meK1"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/nL1ZDVAa",
       "name": "Selimiye Mosque",
       "address": "203 Fountain Ave",
@@ -32550,6 +32550,31 @@
         "masjidal": "nL1ZDVAa"
       },
       "shellAccount": true
+    },
+    {
+      "id": "masjidal/wAa7meK1",
+      "name": "Selimiye Mosque",
+      "address": "105-A Oakland Ave",
+      "city": "Methuen",
+      "region": "Massachusetts",
+      "country": "US",
+      "postalCode": "01844",
+      "lat": 42.7203,
+      "lng": -71.1912,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=wAa7meK1",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "wAa7meK1",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=wAa7meK1"
+        }
+      ],
+      "providers": {
+        "masjidal": "wAa7meK1"
+      },
+      "shellAccount": false
     },
     {
       "id": "masjidal/4nL192La",
