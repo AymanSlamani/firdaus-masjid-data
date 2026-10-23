@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-22T17:17:37.861213+00:00",
+  "importedAt": "2026-10-23T17:15:38.785678+00:00",
   "masjids": [
     {
       "id": "masjidal/xdyqbZdX",
@@ -24377,31 +24377,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/0xdy63KX",
-      "name": "Masjid Dawah",
-      "address": "206 N Homan Ave.",
-      "city": "Chicago",
-      "region": "IL",
-      "country": "US",
-      "postalCode": "60624",
-      "lat": 41.885,
-      "lng": -87.7113,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "0xdy63KX",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX"
-        }
-      ],
-      "providers": {
-        "masjidal": "0xdy63KX"
-      },
-      "shellAccount": true
-    },
-    {
       "id": "masjidal/0AWpVWdj",
       "name": "Masjid Dawah",
       "address": "605 Fairview Ave N",
@@ -24425,6 +24400,31 @@
         "masjidal": "0AWpVWdj"
       },
       "shellAccount": false
+    },
+    {
+      "id": "masjidal/0xdy63KX",
+      "name": "Masjid Dawah",
+      "address": "206 N Homan Ave.",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "postalCode": "60624",
+      "lat": 41.885,
+      "lng": -87.7113,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "0xdy63KX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0xdy63KX"
+        }
+      ],
+      "providers": {
+        "masjidal": "0xdy63KX"
+      },
+      "shellAccount": true
     },
     {
       "id": "masjidal/adJkkqKk",
@@ -26004,13 +26004,13 @@
     {
       "id": "masjidal/aAez7Xdj",
       "name": "Masjid Nur",
-      "address": "1247 E 99th St",
+      "address": "1251 E 99th St",
       "city": "Cleveland",
       "region": "Ohio",
       "country": "US",
       "postalCode": "44108",
-      "lat": 41.5225,
-      "lng": -81.6207,
+      "lat": 41.5224,
+      "lng": -81.6206,
       "website": null,
       "phone": null,
       "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=aAez7Xdj",
