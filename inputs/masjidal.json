@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-24T16:03:05.129912+00:00",
+  "importedAt": "2026-10-25T16:32:13.565391+00:00",
   "masjids": [
     {
       "id": "masjidal/xdyqbZdX",
@@ -22827,6 +22827,31 @@
       "shellAccount": false
     },
     {
+      "id": "masjidal/xdyqy0dX",
+      "name": "Masjid An-Nur",
+      "address": "1729 N Lyndale Ave",
+      "city": "Minneapolis",
+      "region": "MN",
+      "country": "US",
+      "postalCode": "55411",
+      "lat": 44.9973,
+      "lng": -93.2883,
+      "website": "https://masjidannur.org/",
+      "phone": "6125211749",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "xdyqy0dX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX"
+        }
+      ],
+      "providers": {
+        "masjidal": "xdyqy0dX"
+      },
+      "shellAccount": false
+    },
+    {
       "id": "masjidal/nL14N8Ka",
       "name": "Masjid An-Nur",
       "address": "8020 Corporate Dr",
@@ -22923,31 +22948,6 @@
       ],
       "providers": {
         "masjidal": "aAepV9Lj"
-      },
-      "shellAccount": false
-    },
-    {
-      "id": "masjidal/xdyqy0dX",
-      "name": "Masjid anNur",
-      "address": "1729 N Lyndale Ave",
-      "city": "Minneapolis",
-      "region": "MN",
-      "country": "US",
-      "postalCode": "55411",
-      "lat": 44.9973,
-      "lng": -93.2883,
-      "website": "https://masjidannur.org/",
-      "phone": "6125211749",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "xdyqy0dX",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX"
-        }
-      ],
-      "providers": {
-        "masjidal": "xdyqy0dX"
       },
       "shellAccount": false
     },
@@ -23702,31 +23702,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/PAPwzZLJ",
-      "name": "MASJID BILAL",
-      "address": "86-45 231 STREET",
-      "city": "Bellerose",
-      "region": "New York",
-      "country": "US",
-      "postalCode": "11427",
-      "lat": 40.7245,
-      "lng": -73.7157,
-      "website": null,
-      "phone": "9172912629",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=PAPwzZLJ",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "PAPwzZLJ",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=PAPwzZLJ"
-        }
-      ],
-      "providers": {
-        "masjidal": "PAPwzZLJ"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/0AWbOBLj",
       "name": "Masjid Bilal",
       "address": "364 Grant St",
@@ -23773,6 +23748,31 @@
       ],
       "providers": {
         "masjidal": "wdqvXjKb"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/PAPwzZLJ",
+      "name": "MASJID BILAL",
+      "address": "86-45 231 STREET",
+      "city": "Bellerose",
+      "region": "New York",
+      "country": "US",
+      "postalCode": "11427",
+      "lat": 40.7245,
+      "lng": -73.7157,
+      "website": null,
+      "phone": "9172912629",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=PAPwzZLJ",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "PAPwzZLJ",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=PAPwzZLJ"
+        }
+      ],
+      "providers": {
+        "masjidal": "PAPwzZLJ"
       },
       "shellAccount": false
     },

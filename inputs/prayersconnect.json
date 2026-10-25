@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-18T11:29:58.643870+00:00",
+  "importedAt": "2026-10-25T16:48:11.873806+00:00",
   "masjids": [
     {
       "id": "prayersconnect/84002860",
@@ -25527,31 +25527,6 @@
       ]
     },
     {
-      "id": "prayersconnect/84034750",
-      "name": "Jamiah Islamiah Masjid-Madrasah",
-      "address": "7120 FM 1464 SUITE C, Richmond, TX 77407, US",
-      "city": "Richmond",
-      "region": "TX",
-      "country": "US",
-      "lat": 29.69937,
-      "lng": -95.68867,
-      "zone": "America/Chicago",
-      "website": "http://jamiahislamiah.org/",
-      "phone": "+1 832-386-8636",
-      "postalCode": "77407-6400",
-      "providers": {
-        "prayersconnect": "84034750"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84034750",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84034750",
-          "url": "https://prayersconnect.com/mosques/84034750"
-        }
-      ]
-    },
-    {
       "id": "prayersconnect/84034762",
       "name": "Portales Islamic Center",
       "address": "912 W 15th Ln, Portales, NM 88130, US",
@@ -26098,6 +26073,31 @@
           "provider": "prayersconnect",
           "id": "84035550",
           "url": "https://prayersconnect.com/mosques/84035550"
+        }
+      ]
+    },
+    {
+      "id": "prayersconnect/84034750",
+      "name": "Jamiah Islamiah Masjid-Madrasah",
+      "address": "7120 FM 1464 SUITE C, Richmond, TX 77407, US",
+      "city": "Richmond",
+      "region": "TX",
+      "country": "US",
+      "lat": 29.69937,
+      "lng": -95.68867,
+      "zone": "America/Chicago",
+      "website": "http://jamiahislamiah.org/",
+      "phone": "+1 832-386-8636",
+      "postalCode": "77407-6400",
+      "providers": {
+        "prayersconnect": "84034750"
+      },
+      "sourceUrl": "https://prayersconnect.com/mosques/84034750",
+      "sources": [
+        {
+          "provider": "prayersconnect",
+          "id": "84034750",
+          "url": "https://prayersconnect.com/mosques/84034750"
         }
       ]
     },
@@ -49227,31 +49227,6 @@
       ]
     },
     {
-      "id": "prayersconnect/84062259",
-      "name": "Ibrahim Islamic Center",
-      "address": "7563 South Fwy, Houston, TX 77021, US",
-      "city": "Houston",
-      "region": "TX",
-      "country": "US",
-      "lat": 29.68443,
-      "lng": -95.37841,
-      "zone": "America/Chicago",
-      "website": "http://www.ibrahimcenter.org/",
-      "phone": "+1 713-364-6640",
-      "postalCode": "77021-5928",
-      "providers": {
-        "prayersconnect": "84062259"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84062259",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84062259",
-          "url": "https://prayersconnect.com/mosques/84062259"
-        }
-      ]
-    },
-    {
       "id": "prayersconnect/84061619",
       "name": "Masjid Shaafici Cultural Center",
       "address": "400 Cedar Ave S, Minneapolis, MN 55454, US",
@@ -49848,6 +49823,31 @@
           "provider": "prayersconnect",
           "id": "84063009",
           "url": "https://prayersconnect.com/mosques/84063009"
+        }
+      ]
+    },
+    {
+      "id": "prayersconnect/84062259",
+      "name": "Ibrahim Islamic Center",
+      "address": "618 Baca St, Houston, TX 77013, US",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "lat": 29.77791,
+      "lng": -95.23841,
+      "zone": "America/Chicago",
+      "website": "http://www.ibrahimcenter.org/",
+      "phone": "+1 713-364-6640",
+      "postalCode": "77013-5406",
+      "providers": {
+        "prayersconnect": "84062259"
+      },
+      "sourceUrl": "https://prayersconnect.com/mosques/84062259",
+      "sources": [
+        {
+          "provider": "prayersconnect",
+          "id": "84062259",
+          "url": "https://prayersconnect.com/mosques/84062259"
         }
       ]
     },
@@ -52877,31 +52877,6 @@
       ]
     },
     {
-      "id": "prayersconnect/84066625",
-      "name": "The Quran Center of Knoxville",
-      "address": "1645 Downtown W Blvd UNIT 1, Knoxville, TN 37919, US",
-      "city": "Knoxville",
-      "region": "TN",
-      "country": "US",
-      "lat": 35.92324,
-      "lng": -84.05245,
-      "zone": "America/New_York",
-      "website": "https://quranknox.org/",
-      "phone": null,
-      "postalCode": "37919-2712",
-      "providers": {
-        "prayersconnect": "84066625"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84066625",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84066625",
-          "url": "https://prayersconnect.com/mosques/84066625"
-        }
-      ]
-    },
-    {
       "id": "prayersconnect/84066457",
       "name": "Malcolm Shabazz Masjid",
       "address": "102 West 116th Street, New York, NY 10026",
@@ -53552,6 +53527,31 @@
       ]
     },
     {
+      "id": "prayersconnect/84066625",
+      "name": "The Quran Center of Knoxville",
+      "address": "1645 Downtown W Blvd UNIT 1, Knoxville, TN 37919, US",
+      "city": "Knoxville",
+      "region": "TN",
+      "country": "US",
+      "lat": 35.92324,
+      "lng": -84.05245,
+      "zone": "America/New_York",
+      "website": null,
+      "phone": null,
+      "postalCode": "37919-2712",
+      "providers": {
+        "prayersconnect": "84066625"
+      },
+      "sourceUrl": "https://prayersconnect.com/mosques/84066625",
+      "sources": [
+        {
+          "provider": "prayersconnect",
+          "id": "84066625",
+          "url": "https://prayersconnect.com/mosques/84066625"
+        }
+      ]
+    },
+    {
       "id": "prayersconnect/84065841",
       "name": "Masjid Al-Warith Deen & Outreach Center",
       "address": "7301-3 Superior Ave, Cleveland, OH 44103, US",
@@ -53736,7 +53736,7 @@
       "lat": 38.96211,
       "lng": -77.35226,
       "zone": "America/New_York",
-      "website": "https://restonislamiccenter.org/home",
+      "website": "https://masjidbox.com/prayer-times/restonislamiccenter",
       "phone": "+1 800-715-6520",
       "postalCode": "20190-3573",
       "providers": {
@@ -61952,31 +61952,6 @@
       ]
     },
     {
-      "id": "prayersconnect/84076274",
-      "name": "Masjid Uthman",
-      "address": "840 Oak Creek Dr, Lombard, IL 60148, US",
-      "city": "Lombard",
-      "region": "IL",
-      "country": "US",
-      "lat": 41.85038,
-      "lng": -88.03228,
-      "zone": "America/Chicago",
-      "website": "http://www.masjiduthman.org/",
-      "phone": "+13312186985",
-      "postalCode": "60148-6405",
-      "providers": {
-        "prayersconnect": "84076274"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84076274",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84076274",
-          "url": "https://prayersconnect.com/mosques/84076274"
-        }
-      ]
-    },
-    {
       "id": "prayersconnect/84076340",
       "name": "Islamic Center of Fremont (ICF-Irvington)",
       "address": "4039 Irvington Ave, Fremont, CA 94538, US",
@@ -62323,6 +62298,31 @@
           "provider": "prayersconnect",
           "id": "84076979",
           "url": "https://prayersconnect.com/mosques/84076979"
+        }
+      ]
+    },
+    {
+      "id": "prayersconnect/84076274",
+      "name": "Masjid Uthman",
+      "address": "1208 Lawler Ave, Lombard, IL 60148, US",
+      "city": "Lombard",
+      "region": "IL",
+      "country": "US",
+      "lat": 41.8588,
+      "lng": -88.03788,
+      "zone": "America/Chicago",
+      "website": "http://www.masjiduthman.org/",
+      "phone": "+13312186985",
+      "postalCode": "60148-4256",
+      "providers": {
+        "prayersconnect": "84076274"
+      },
+      "sourceUrl": "https://prayersconnect.com/mosques/84076274",
+      "sources": [
+        {
+          "provider": "prayersconnect",
+          "id": "84076274",
+          "url": "https://prayersconnect.com/mosques/84076274"
         }
       ]
     },
@@ -66002,31 +66002,6 @@
       ]
     },
     {
-      "id": "prayersconnect/84080438",
-      "name": "Masjid Anjuman-E-Asghari",
-      "address": "10301 Jefferson Hwy, Brooklyn Park, MN 55445, US",
-      "city": "Brooklyn Park",
-      "region": "MN",
-      "country": "US",
-      "lat": 45.14073,
-      "lng": -93.40142,
-      "zone": "America/Chicago",
-      "website": "http://www.mnjamaat.com/",
-      "phone": "+1 763-424-4909",
-      "postalCode": "55445-3269",
-      "providers": {
-        "prayersconnect": "84080438"
-      },
-      "sourceUrl": "https://prayersconnect.com/mosques/84080438",
-      "sources": [
-        {
-          "provider": "prayersconnect",
-          "id": "84080438",
-          "url": "https://prayersconnect.com/mosques/84080438"
-        }
-      ]
-    },
-    {
       "id": "prayersconnect/84080592",
       "name": "Masjid Ibrahim (Islamic Society of Delaware)",
       "address": " 28 Salem Church Rd, Newark, DE 19713, US",
@@ -66173,6 +66148,31 @@
           "provider": "prayersconnect",
           "id": "84080849",
           "url": "https://prayersconnect.com/mosques/84080849"
+        }
+      ]
+    },
+    {
+      "id": "prayersconnect/84080438",
+      "name": "Masjid Anjuman-E-Asghari",
+      "address": "10301 Jefferson Hwy, Brooklyn Park, MN 55445, US",
+      "city": "Brooklyn Park",
+      "region": "MN",
+      "country": "US",
+      "lat": 45.14073,
+      "lng": -93.40142,
+      "zone": "America/Chicago",
+      "website": "http://www.mnjamaat.com/",
+      "phone": "+1 763-424-4909",
+      "postalCode": "55445-3269",
+      "providers": {
+        "prayersconnect": "84080438"
+      },
+      "sourceUrl": "https://prayersconnect.com/mosques/84080438",
+      "sources": [
+        {
+          "provider": "prayersconnect",
+          "id": "84080438",
+          "url": "https://prayersconnect.com/mosques/84080438"
         }
       ]
     },

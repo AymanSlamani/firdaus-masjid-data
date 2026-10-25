@@ -1,11 +1,20 @@
 {
-  "generatedAt": "2026-10-24T16:28:57.580420+00:00",
+  "generatedAt": "2026-10-25T17:42:24.832331+00:00",
   "locations": 5163,
-  "providerLinked": 3830,
-  "publishedSchedules": 2508,
+  "providerLinked": 3829,
+  "publishedSchedules": 2507,
   "statesAndTerritories": 52,
-  "currentPublishedSchedules": 2508,
-  "withFridaySessions": 2420,
+  "currentPublishedSchedules": 2507,
+  "withFridaySessions": 2419,
   "completeCensus": false,
-  "refreshWarnings": []
+  "refreshWarnings": [
+    {
+      "source": "import-masjids.py",
+      "previousSnapshotRetained": true
+    },
+    {
+      "source": "discover-masjid-providers.py",
+      "previousSnapshotRetained": true
+    }
+  ]
 }

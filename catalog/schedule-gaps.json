@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T16:28:57.580420+00:00",
-  "count": 2655,
+  "generatedAt": "2026-10-25T17:42:24.832331+00:00",
+  "count": 2656,
   "locations": [
     {
       "id": "esalah/10000",
@@ -28849,6 +28849,21 @@
           "provider": "prayersconnect",
           "id": "84057346",
           "url": "https://prayersconnect.com/mosques/84057346"
+        }
+      ]
+    },
+    {
+      "id": "usa/ChIJ21QXJJy_QIYRIJ_OAjTifwE",
+      "name": "Ibrahim Islamic Center & Mosque",
+      "city": "Houston",
+      "state": "TX",
+      "website": "http://www.ibrahimcenter.org/",
+      "reason": "no_connected_public_source",
+      "sources": [
+        {
+          "provider": "masjidsinusa",
+          "id": "ChIJ21QXJJy_QIYRIJ_OAjTifwE",
+          "url": "https://masjidsinusa.com/states/texas/"
         }
       ]
     },
