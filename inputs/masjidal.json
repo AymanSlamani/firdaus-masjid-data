@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-25T16:32:13.565391+00:00",
+  "importedAt": "2026-10-26T18:43:21.107808+00:00",
   "masjids": [
     {
       "id": "masjidal/xdyqbZdX",
@@ -4802,6 +4802,31 @@
       "shellAccount": false
     },
     {
+      "id": "masjidal/YADpWbAN",
+      "name": "Bridgewater Musallah",
+      "address": "124 Ardsley Ln",
+      "city": "Princeton",
+      "region": "Texas",
+      "country": "US",
+      "postalCode": "75407",
+      "lat": 33.0983,
+      "lng": -96.5027,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADpWbAN",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "YADpWbAN",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=YADpWbAN"
+        }
+      ],
+      "providers": {
+        "masjidal": "YADpWbAN"
+      },
+      "shellAccount": false
+    },
+    {
       "id": "masjidal/0dYePld6",
       "name": "Brooklyn Broadway Jame Mosque and Islamic Center",
       "address": "986 Gates Ave",
@@ -6800,6 +6825,31 @@
         "masjidal": "kAk2xQLq"
       },
       "shellAccount": true
+    },
+    {
+      "id": "masjidal/jKZ2EMKX",
+      "name": "Delmarva Muslim Community",
+      "address": "7843 Jersey Rd",
+      "city": "Salisbury",
+      "region": "Maryland",
+      "country": "US",
+      "postalCode": "21801",
+      "lat": 38.4083,
+      "lng": -75.6018,
+      "website": "http://www.delmarvamuslimcommunity.org",
+      "phone": "4103414023",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=jKZ2EMKX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "jKZ2EMKX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=jKZ2EMKX"
+        }
+      ],
+      "providers": {
+        "masjidal": "jKZ2EMKX"
+      },
+      "shellAccount": false
     },
     {
       "id": "masjidal/MA5ZDJdr",
@@ -18427,31 +18477,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/1VL4WVKx",
-      "name": "Makki Masjid",
-      "address": "3418 W Ainslie St",
-      "city": "Chicago",
-      "region": "IL",
-      "country": "US",
-      "postalCode": "60625",
-      "lat": 41.9703,
-      "lng": -87.7144,
-      "website": "https://makkimasjid.com",
-      "phone": "7735888865",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1VL4WVKx",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "1VL4WVKx",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1VL4WVKx"
-        }
-      ],
-      "providers": {
-        "masjidal": "1VL4WVKx"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/kK3GOMKe",
       "name": "Makki Masjid",
       "address": "1089 Coney Island Ave",
@@ -18473,6 +18498,31 @@
       ],
       "providers": {
         "masjidal": "kK3GOMKe"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/1VL4WVKx",
+      "name": "Makki Masjid",
+      "address": "3418 W Ainslie St",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "postalCode": "60625",
+      "lat": 41.9703,
+      "lng": -87.7144,
+      "website": "https://makkimasjid.com",
+      "phone": "7735888865",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1VL4WVKx",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "1VL4WVKx",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1VL4WVKx"
+        }
+      ],
+      "providers": {
+        "masjidal": "1VL4WVKx"
       },
       "shellAccount": false
     },
@@ -21152,31 +21202,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/1QL0GKZD",
-      "name": "Masjid Al-Huda",
-      "address": "1081 Irving Park Rd",
-      "city": "Schaumburg",
-      "region": "IL",
-      "country": "US",
-      "postalCode": "60193",
-      "lat": 41.9978,
-      "lng": -88.1187,
-      "website": "https://masjidalhuda.org/",
-      "phone": "6305291786",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "1QL0GKZD",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD"
-        }
-      ],
-      "providers": {
-        "masjidal": "1QL0GKZD"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/wLVp0ydJ",
       "name": "MASJID AL-HUDA",
       "address": "3043 Voorhies Ave",
@@ -21198,6 +21223,31 @@
       ],
       "providers": {
         "masjidal": "wLVp0ydJ"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/1QL0GKZD",
+      "name": "Masjid Al-Huda",
+      "address": "1081 Irving Park Rd",
+      "city": "Schaumburg",
+      "region": "IL",
+      "country": "US",
+      "postalCode": "60193",
+      "lat": 41.9978,
+      "lng": -88.1187,
+      "website": "https://masjidalhuda.org/",
+      "phone": "6305291786",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "1QL0GKZD",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=1QL0GKZD"
+        }
+      ],
+      "providers": {
+        "masjidal": "1QL0GKZD"
       },
       "shellAccount": false
     },
@@ -21352,31 +21402,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/3OA8mXdp",
-      "name": "Masjid al-Hudaa",
-      "address": "3880 Smith St",
-      "city": "Union City",
-      "region": "CA",
-      "country": "US",
-      "postalCode": "94587",
-      "lat": 37.5961,
-      "lng": -122.0787,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=3OA8mXdp",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "3OA8mXdp",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=3OA8mXdp"
-        }
-      ],
-      "providers": {
-        "masjidal": "3OA8mXdp"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/kK3vZPde",
       "name": "Masjid Al-Hudaa",
       "address": "25650 101st Ave SE",
@@ -21398,6 +21423,31 @@
       ],
       "providers": {
         "masjidal": "kK3vZPde"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/3OA8mXdp",
+      "name": "Masjid al-Hudaa",
+      "address": "3880 Smith St",
+      "city": "Union City",
+      "region": "CA",
+      "country": "US",
+      "postalCode": "94587",
+      "lat": 37.5961,
+      "lng": -122.0787,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=3OA8mXdp",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "3OA8mXdp",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=3OA8mXdp"
+        }
+      ],
+      "providers": {
+        "masjidal": "3OA8mXdp"
       },
       "shellAccount": false
     },
@@ -22827,31 +22877,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/xdyqy0dX",
-      "name": "Masjid An-Nur",
-      "address": "1729 N Lyndale Ave",
-      "city": "Minneapolis",
-      "region": "MN",
-      "country": "US",
-      "postalCode": "55411",
-      "lat": 44.9973,
-      "lng": -93.2883,
-      "website": "https://masjidannur.org/",
-      "phone": "6125211749",
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "xdyqy0dX",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX"
-        }
-      ],
-      "providers": {
-        "masjidal": "xdyqy0dX"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/nL14N8Ka",
       "name": "Masjid An-Nur",
       "address": "8020 Corporate Dr",
@@ -22873,6 +22898,31 @@
       ],
       "providers": {
         "masjidal": "nL14N8Ka"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/xdyqy0dX",
+      "name": "Masjid An-Nur",
+      "address": "1729 N Lyndale Ave",
+      "city": "Minneapolis",
+      "region": "MN",
+      "country": "US",
+      "postalCode": "55411",
+      "lat": 44.9973,
+      "lng": -93.2883,
+      "website": "https://masjidannur.org/",
+      "phone": "6125211749",
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "xdyqy0dX",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=xdyqy0dX"
+        }
+      ],
+      "providers": {
+        "masjidal": "xdyqy0dX"
       },
       "shellAccount": false
     },
@@ -24377,31 +24427,6 @@
       "shellAccount": false
     },
     {
-      "id": "masjidal/0AWpVWdj",
-      "name": "Masjid Dawah",
-      "address": "605 Fairview Ave N",
-      "city": "Saint Paul",
-      "region": "Minnesota",
-      "country": "US",
-      "postalCode": "55104",
-      "lat": 44.9595,
-      "lng": -93.1779,
-      "website": null,
-      "phone": null,
-      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj",
-      "sources": [
-        {
-          "provider": "masjidal",
-          "id": "0AWpVWdj",
-          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj"
-        }
-      ],
-      "providers": {
-        "masjidal": "0AWpVWdj"
-      },
-      "shellAccount": false
-    },
-    {
       "id": "masjidal/0xdy63KX",
       "name": "Masjid Dawah",
       "address": "206 N Homan Ave.",
@@ -24425,6 +24450,31 @@
         "masjidal": "0xdy63KX"
       },
       "shellAccount": true
+    },
+    {
+      "id": "masjidal/0AWpVWdj",
+      "name": "Masjid Dawah",
+      "address": "605 Fairview Ave N",
+      "city": "Saint Paul",
+      "region": "Minnesota",
+      "country": "US",
+      "postalCode": "55104",
+      "lat": 44.9595,
+      "lng": -93.1779,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "0AWpVWdj",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpVWdj"
+        }
+      ],
+      "providers": {
+        "masjidal": "0AWpVWdj"
+      },
+      "shellAccount": false
     },
     {
       "id": "masjidal/adJkkqKk",
@@ -30323,6 +30373,31 @@
       ],
       "providers": {
         "masjidal": "8KXm93LM"
+      },
+      "shellAccount": false
+    },
+    {
+      "id": "masjidal/GAEObYKn",
+      "name": "NIC MOSQUE",
+      "address": "4214 10th Ave",
+      "city": "Brooklyn",
+      "region": "New York",
+      "country": "US",
+      "postalCode": "11219",
+      "lat": 40.6426,
+      "lng": -73.9952,
+      "website": null,
+      "phone": null,
+      "sourceUrl": "https://masjidal.com/widget/monthly/v2/?masjid_id=GAEObYKn",
+      "sources": [
+        {
+          "provider": "masjidal",
+          "id": "GAEObYKn",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=GAEObYKn"
+        }
+      ],
+      "providers": {
+        "masjidal": "GAEObYKn"
       },
       "shellAccount": false
     },

@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-25T17:42:24.832331+00:00",
+  "generatedAt": "2026-10-26T19:10:34.422102+00:00",
   "inputRecords": {
     "openstreetmap": 1209,
     "masjidsinusa": 3062,
-    "masjidal": 1425,
+    "masjidal": 1428,
     "esalah": 2258,
     "prayersconnect": 3380
   },
   "sourceSnapshots": {
     "openstreetmap": "2026-10-18T10:08:51Z",
-    "masjidsinusa": "2026-10-25T16:32:13.565391+00:00",
-    "masjidal": "2026-10-25T16:32:13.565391+00:00",
+    "masjidsinusa": "2026-10-26T18:43:21.107808+00:00",
+    "masjidal": "2026-10-26T18:43:21.107808+00:00",
     "esalah": "2026-10-25T17:41:52.218775+00:00",
     "prayersconnect": "2026-10-25T16:48:11.873806+00:00"
   },
-  "uniqueLocations": 5163,
-  "mergedRecords": 5905,
+  "uniqueLocations": 5165,
+  "mergedRecords": 5906,
   "merges": [
     {
       "kept": "way/1425907711",
@@ -4848,6 +4848,11 @@
       "confidence": 0.94
     },
     {
+      "kept": "node/9422016207",
+      "merged": "masjidal/jKZ2EMKX",
+      "confidence": 0.94
+    },
+    {
       "kept": "usa/a77860c5-2e5c-5835-b55e-93363f24af13",
       "merged": "masjidal/MA5ZDJdr",
       "confidence": 0.94
@@ -6528,13 +6533,13 @@
       "confidence": 0.94
     },
     {
-      "kept": "way/142212552",
-      "merged": "masjidal/1VL4WVKx",
+      "kept": "usa/06d4f86b-0642-526c-b4a1-678559542437",
+      "merged": "masjidal/kK3GOMKe",
       "confidence": 0.96
     },
     {
-      "kept": "usa/06d4f86b-0642-526c-b4a1-678559542437",
-      "merged": "masjidal/kK3GOMKe",
+      "kept": "way/142212552",
+      "merged": "masjidal/1VL4WVKx",
       "confidence": 0.96
     },
     {
@@ -6873,13 +6878,13 @@
       "confidence": 0.96
     },
     {
-      "kept": "usa/ChIJIxHdetmVj4ARLg0REb22r_A",
-      "merged": "masjidal/3OA8mXdp",
+      "kept": "usa/a33cfdce-e3e2-5dc4-9e08-07da266372e6",
+      "merged": "masjidal/kK3vZPde",
       "confidence": 0.94
     },
     {
-      "kept": "usa/a33cfdce-e3e2-5dc4-9e08-07da266372e6",
-      "merged": "masjidal/kK3vZPde",
+      "kept": "usa/ChIJIxHdetmVj4ARLg0REb22r_A",
+      "merged": "masjidal/3OA8mXdp",
       "confidence": 0.94
     },
     {
@@ -32062,7 +32067,7 @@
     "NJ": 261,
     "NM": 26,
     "NV": 18,
-    "NY": 656,
+    "NY": 657,
     "OH": 165,
     "OK": 22,
     "OR": 30,
@@ -32072,7 +32077,7 @@
     "SC": 40,
     "SD": 6,
     "TN": 72,
-    "TX": 465,
+    "TX": 466,
     "UT": 20,
     "VA": 171,
     "VT": 3,
@@ -32083,11 +32088,11 @@
   },
   "withWebsite": 3122,
   "withPhone": 3772,
-  "withLiveProvider": 3829,
-  "withPublishedSnapshot": 2507,
-  "withCurrentPublishedSchedule": 2507,
-  "withCurrentJumuah": 2419,
-  "withFiveDailyIqamah": 1362,
+  "withLiveProvider": 3831,
+  "withPublishedSnapshot": 2509,
+  "withCurrentPublishedSchedule": 2509,
+  "withCurrentJumuah": 2421,
+  "withFiveDailyIqamah": 1365,
   "withoutLiveProvider": 1334,
   "providerAccountConflicts": [
     {
