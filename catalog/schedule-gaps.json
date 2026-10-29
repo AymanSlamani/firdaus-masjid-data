@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T18:30:44.640191+00:00",
+  "generatedAt": "2026-10-29T18:59:52.455907+00:00",
   "count": 2655,
   "locations": [
     {
@@ -7899,31 +7899,6 @@
           "provider": "esalah",
           "id": "47936",
           "url": "https://esalah.com/mosques/united-states/california/sacramento/masjid-annur-358836280/"
-        }
-      ]
-    },
-    {
-      "id": "node/358837222",
-      "name": "Masjid Ya Rasool Allah",
-      "city": "lodi",
-      "state": "CA",
-      "website": null,
-      "reason": "no_connected_public_source",
-      "sources": [
-        {
-          "provider": "openstreetmap",
-          "id": "node/358837222",
-          "url": "https://www.openstreetmap.org/node/358837222"
-        },
-        {
-          "provider": "masjidsinusa",
-          "id": "0440625a-5c55-516f-86aa-4d325cf85f34",
-          "url": "https://masjidsinusa.com/states/california/"
-        },
-        {
-          "provider": "esalah",
-          "id": "147024",
-          "url": "https://esalah.com/mosques/united-states/arkansas/lodi/masjid-ya-rasool-allah/"
         }
       ]
     },
@@ -26569,6 +26544,26 @@
           "provider": "prayersconnect",
           "id": "84094987",
           "url": "https://prayersconnect.com/mosques/84094987"
+        }
+      ]
+    },
+    {
+      "id": "usa/7f51db9f-c83f-5464-a10b-325d20ba9de4",
+      "name": "MAPS - Snohomish",
+      "city": "Marysville",
+      "state": "WA",
+      "website": null,
+      "reason": "no_current_provider_schedule",
+      "sources": [
+        {
+          "provider": "masjidsinusa",
+          "id": "7f51db9f-c83f-5464-a10b-325d20ba9de4",
+          "url": "https://masjidsinusa.com/states/washington/"
+        },
+        {
+          "provider": "masjidal",
+          "id": "0AWpj0dj",
+          "url": "https://masjidal.com/widget/monthly/v2/?masjid_id=0AWpj0dj"
         }
       ]
     },
