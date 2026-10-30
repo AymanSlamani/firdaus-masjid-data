@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T18:59:52.455907+00:00",
-  "count": 2655,
+  "generatedAt": "2026-10-30T18:31:13.772768+00:00",
+  "count": 2656,
   "locations": [
     {
       "id": "esalah/10000",
@@ -46924,6 +46924,36 @@
           "provider": "openstreetmap",
           "id": "way/836963097",
           "url": "https://www.openstreetmap.org/way/836963097"
+        }
+      ]
+    },
+    {
+      "id": "way/840286986",
+      "name": "Burmese Muslim Community of Amarillo (BMCAMA)",
+      "city": "Amarillo",
+      "state": "TX",
+      "website": "https://bmcama.org/",
+      "reason": "no_current_provider_schedule",
+      "sources": [
+        {
+          "provider": "openstreetmap",
+          "id": "way/840286986",
+          "url": "https://www.openstreetmap.org/way/840286986"
+        },
+        {
+          "provider": "masjidsinusa",
+          "id": "ChIJJwZUteVJAYcRabOsNX_AE9Q",
+          "url": "https://masjidsinusa.com/states/texas/"
+        },
+        {
+          "provider": "esalah",
+          "id": "212429",
+          "url": "https://esalah.com/mosques/united-states/texas/amarillo/burmese-muslim-community-of-amarillo-bmcama/"
+        },
+        {
+          "provider": "prayersconnect",
+          "id": "84016744",
+          "url": "https://prayersconnect.com/mosques/84016744"
         }
       ]
     },
